@@ -1,0 +1,4440 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Devart (www.devart.com), snapshot file -->
+<!-- Modifying this generated file will probably render it invalid -->
+<Snapshot>
+  <SnapshotInfo>
+    <ServerName>ORCLLAST</ServerName>
+    <ServerVersion>18.0.0.0.0</ServerVersion>
+    <DatabaseName>SYS</DatabaseName>
+    <Date>12/22/2021 19:34:18</Date>
+    <SnapshotVersion>3</SnapshotVersion>
+    <IsXmlDb>True</IsXmlDb>
+    <IsExpressVersion>False</IsExpressVersion>
+    <SchemaName>AUTOTEST_DATAEDITOR</SchemaName>
+  </SnapshotInfo>
+  <SchemaMapping>
+    <SchemaInfo name="AUTOTEST_DATAEDITOR" id="AUTOTEST_DATAEDITOR" />
+  </SchemaMapping>
+  <Permissions objectscount="0" />
+  <Database name="AUTOTEST_DATAEDITOR">
+    <List type="Table">
+      <Object tableType="Table">
+        <Name>ACTOR</Name>
+        <IsSystem>False</IsSystem>
+        <List name="Columns">
+          <Object>
+            <Name>NAME</Name>
+            <IsSystem>False</IsSystem>
+            <Comment />
+            <Type>
+              <Name>VARCHAR2</Name>
+              <Precision />
+              <Scale />
+              <Length>100</Length>
+              <Collation>USING_NLS_COMP</Collation>
+              <CharUsed>Byte</CharUsed>
+            </Type>
+            <Default />
+            <Nullable>True</Nullable>
+            <IsUnique>False</IsUnique>
+            <IsPrimary>False</IsPrimary>
+            <DataTypeOwner />
+            <Reference>False</Reference>
+            <IsHidden>False</IsHidden>
+            <ColumnOrder>1</ColumnOrder>
+            <OldName />
+            <Collation>USING_NLS_COMP</Collation>
+            <DefaultOnNull>False</DefaultOnNull>
+          </Object>
+        </List>
+        <Storage>
+          <Name />
+          <IsSystem>False</IsSystem>
+          <IsIndex>False</IsIndex>
+          <BufferPool>DEFAULT</BufferPool>
+          <FreeLists>1</FreeLists>
+          <FreeListGroups>1</FreeListGroups>
+          <InitialExtent>
+            <Value>64</Value>
+            <TwoPower>10</TwoPower>
+            <SizeType>K</SizeType>
+          </InitialExtent>
+          <IniTrans>1</IniTrans>
+          <MaxExtents>
+            <Value>2147483645</Value>
+            <TwoPower>0</TwoPower>
+            <SizeType>UNDEFINED</SizeType>
+          </MaxExtents>
+          <MaxTrans>255</MaxTrans>
+          <MinExtents>1</MinExtents>
+          <NextExtent>
+            <Value>1</Value>
+            <TwoPower>20</TwoPower>
+            <SizeType>M</SizeType>
+          </NextExtent>
+          <PctFree>10</PctFree>
+          <PctIncrease>50</PctIncrease>
+          <PctUsed>40</PctUsed>
+          <TablespaceName>USERS</TablespaceName>
+        </Storage>
+        <Compression>DISABLED</Compression>
+        <CompressForAllTag>False</CompressForAllTag>
+        <Degree>1</Degree>
+        <Instances>1</Instances>
+        <Locked>ENABLED</Locked>
+        <RowDependencies>DISABLED</RowDependencies>
+        <Logging>YES</Logging>
+        <Monitoring />
+        <Caching>N</Caching>
+        <Comment />
+        <Status>VALID</Status>
+        <BackedUp>N</BackedUp>
+        <ClusterName />
+        <RowMovement>DISABLED</RowMovement>
+        <TableMode>NORMAL</TableMode>
+        <UseOverflow>False</UseOverflow>
+        <Mapping>False</Mapping>
+        <Threshold>50</Threshold>
+        <IncludeColumn>not specified</IncludeColumn>
+        <ClusterOwner>AUTOTEST_DATAEDITOR</ClusterOwner>
+        <IsReadOnly>False</IsReadOnly>
+        <ResultCache>DEFAULT</ResultCache>
+        <FlashbackArchiveName />
+        <Partitioned>False</Partitioned>
+        <Editable>True</Editable>
+        <Temporary>False</Temporary>
+        <TemporarySession>False</TemporarySession>
+        <AttributeClustered>False</AttributeClustered>
+      </Object>
+      <Object tableType="Table">
+        <Name>ALLBINTYPES</Name>
+        <IsSystem>False</IsSystem>
+        <List name="Columns">
+          <Object>
+            <Name>ID</Name>
+            <IsSystem>False</IsSystem>
+            <Comment />
+            <Type>
+              <Name>NUMBER</Name>
+              <Precision>10</Precision>
+              <Scale>0</Scale>
+              <Length>0</Length>
+              <Collation />
+              <CharUsed>Byte</CharUsed>
+            </Type>
+            <Default />
+            <Nullable>False</Nullable>
+            <IsUnique>False</IsUnique>
+            <IsPrimary>True</IsPrimary>
+            <DataTypeOwner />
+            <Reference>False</Reference>
+            <IsHidden>False</IsHidden>
+            <ColumnOrder>1</ColumnOrder>
+            <OldName />
+            <Collation />
+            <DefaultOnNull>False</DefaultOnNull>
+          </Object>
+          <Object>
+            <Name>R</Name>
+            <IsSystem>False</IsSystem>
+            <Comment />
+            <Type>
+              <Name>RAW</Name>
+              <Precision />
+              <Scale />
+              <Length>20</Length>
+              <Collation />
+              <CharUsed>Byte</CharUsed>
+            </Type>
+            <Default />
+            <Nullable>True</Nullable>
+            <IsUnique>False</IsUnique>
+            <IsPrimary>False</IsPrimary>
+            <DataTypeOwner />
+            <Reference>False</Reference>
+            <IsHidden>False</IsHidden>
+            <ColumnOrder>2</ColumnOrder>
+            <OldName />
+            <Collation />
+            <DefaultOnNull>False</DefaultOnNull>
+          </Object>
+          <Object>
+            <Name>LR</Name>
+            <IsSystem>False</IsSystem>
+            <Comment />
+            <Type>
+              <Name>LONG RAW</Name>
+              <Precision />
+              <Scale />
+              <Length>0</Length>
+              <Collation />
+              <CharUsed>Byte</CharUsed>
+            </Type>
+            <Default />
+            <Nullable>True</Nullable>
+            <IsUnique>False</IsUnique>
+            <IsPrimary>False</IsPrimary>
+            <DataTypeOwner />
+            <Reference>False</Reference>
+            <IsHidden>False</IsHidden>
+            <ColumnOrder>3</ColumnOrder>
+            <OldName />
+            <Collation />
+            <DefaultOnNull>False</DefaultOnNull>
+          </Object>
+          <Object>
+            <Name>BL</Name>
+            <IsSystem>False</IsSystem>
+            <Comment />
+            <Type>
+              <Name>BLOB</Name>
+              <Precision />
+              <Scale />
+              <Length>0</Length>
+              <Collation />
+              <CharUsed>Byte</CharUsed>
+            </Type>
+            <Default />
+            <Nullable>True</Nullable>
+            <IsUnique>False</IsUnique>
+            <IsPrimary>False</IsPrimary>
+            <DataTypeOwner />
+            <Reference>False</Reference>
+            <IsHidden>False</IsHidden>
+            <ColumnOrder>4</ColumnOrder>
+            <OldName />
+            <Collation />
+            <DefaultOnNull>False</DefaultOnNull>
+          </Object>
+          <Object>
+            <Name>RID</Name>
+            <IsSystem>False</IsSystem>
+            <Comment />
+            <Type>
+              <Name>ROWID</Name>
+              <Precision />
+              <Scale />
+              <Length>10</Length>
+              <Collation />
+              <CharUsed>Byte</CharUsed>
+            </Type>
+            <Default />
+            <Nullable>True</Nullable>
+            <IsUnique>False</IsUnique>
+            <IsPrimary>False</IsPrimary>
+            <DataTypeOwner />
+            <Reference>False</Reference>
+            <IsHidden>False</IsHidden>
+            <ColumnOrder>5</ColumnOrder>
+            <OldName />
+            <Collation />
+            <DefaultOnNull>False</DefaultOnNull>
+          </Object>
+          <Object>
+            <Name>URID</Name>
+            <IsSystem>False</IsSystem>
+            <Comment />
+            <Type>
+              <Name>UROWID</Name>
+              <Precision />
+              <Scale />
+              <Length>2000</Length>
+              <Collation />
+              <CharUsed>Byte</CharUsed>
+            </Type>
+            <Default />
+            <Nullable>True</Nullable>
+            <IsUnique>False</IsUnique>
+            <IsPrimary>False</IsPrimary>
+            <DataTypeOwner />
+            <Reference>False</Reference>
+            <IsHidden>False</IsHidden>
+            <ColumnOrder>6</ColumnOrder>
+            <OldName />
+            <Collation />
+            <DefaultOnNull>False</DefaultOnNull>
+          </Object>
+        </List>
+        <Storage>
+          <Name />
+          <IsSystem>False</IsSystem>
+          <IsIndex>False</IsIndex>
+          <BufferPool>DEFAULT</BufferPool>
+          <FreeLists>1</FreeLists>
+          <FreeListGroups>1</FreeListGroups>
+          <InitialExtent>
+            <Value>64</Value>
+            <TwoPower>10</TwoPower>
+            <SizeType>K</SizeType>
+          </InitialExtent>
+          <IniTrans>1</IniTrans>
+          <MaxExtents>
+            <Value>2147483645</Value>
+            <TwoPower>0</TwoPower>
+            <SizeType>UNDEFINED</SizeType>
+          </MaxExtents>
+          <MaxTrans>255</MaxTrans>
+          <MinExtents>1</MinExtents>
+          <NextExtent>
+            <Value>1</Value>
+            <TwoPower>20</TwoPower>
+            <SizeType>M</SizeType>
+          </NextExtent>
+          <PctFree>10</PctFree>
+          <PctIncrease>50</PctIncrease>
+          <PctUsed>40</PctUsed>
+          <TablespaceName>USERS</TablespaceName>
+        </Storage>
+        <Compression>DISABLED</Compression>
+        <CompressForAllTag>False</CompressForAllTag>
+        <Degree>1</Degree>
+        <Instances>1</Instances>
+        <Locked>ENABLED</Locked>
+        <RowDependencies>DISABLED</RowDependencies>
+        <Logging>YES</Logging>
+        <Monitoring />
+        <Caching>N</Caching>
+        <Comment />
+        <Status>VALID</Status>
+        <BackedUp>N</BackedUp>
+        <ClusterName />
+        <RowMovement>DISABLED</RowMovement>
+        <TableMode>NORMAL</TableMode>
+        <UseOverflow>False</UseOverflow>
+        <Mapping>False</Mapping>
+        <Threshold>50</Threshold>
+        <IncludeColumn>not specified</IncludeColumn>
+        <ClusterOwner>AUTOTEST_DATAEDITOR</ClusterOwner>
+        <IsReadOnly>False</IsReadOnly>
+        <ResultCache>DEFAULT</ResultCache>
+        <FlashbackArchiveName />
+        <Partitioned>False</Partitioned>
+        <Editable>True</Editable>
+        <Temporary>False</Temporary>
+        <TemporarySession>False</TemporarySession>
+        <AttributeClustered>False</AttributeClustered>
+        <List name="Constraints">
+          <Object type="UniqueKey">
+            <Name>PK_ALLBINTYPES</Name>
+            <IsSystem>False</IsSystem>
+            <List name="Columns">
+              <Item>ID</Item>
+            </List>
+            <Unique>True</Unique>
+            <IsPrimary>True</IsPrimary>
+            <IndexOwner>AUTOTEST_DATAEDITOR</IndexOwner>
+            <IndexName>PK_ALLBINTYPES</IndexName>
+            <ConstraintStates>
+              <Enabled>True</Enabled>
+              <Deferrable>NOT DEFERRABLE</Deferrable>
+              <Deferred>IMMEDIATE</Deferred>
+              <Validated>True</Validated>
+              <Generated>USER NAME</Generated>
+              <Bad>False</Bad>
+              <Rely>False</Rely>
+            </ConstraintStates>
+          </Object>
+        </List>
+        <List name="Indexes">
+          <Object type="Index">
+            <Name>PK_ALLBINTYPES</Name>
+            <IsSystem>False</IsSystem>
+            <List name="Columns">
+              <Item>ID</Item>
+            </List>
+            <List name="SortOrder">
+              <Item>Asc</Item>
+            </List>
+            <Unique>True</Unique>
+            <Storage>
+              <Name />
+              <IsSystem>False</IsSystem>
+              <IsIndex>True</IsIndex>
+              <BufferPool>DEFAULT</BufferPool>
+              <FreeLists>1</FreeLists>
+              <FreeListGroups>1</FreeListGroups>
+              <InitialExtent>
+                <Value>64</Value>
+                <TwoPower>10</TwoPower>
+                <SizeType>K</SizeType>
+              </InitialExtent>
+              <IniTrans>2</IniTrans>
+              <MaxExtents>
+                <Value>2147483645</Value>
+                <TwoPower>0</TwoPower>
+                <SizeType>UNDEFINED</SizeType>
+              </MaxExtents>
+              <MaxTrans>255</MaxTrans>
+              <MinExtents>1</MinExtents>
+              <NextExtent>
+                <Value>1</Value>
+                <TwoPower>20</TwoPower>
+                <SizeType>M</SizeType>
+              </NextExtent>
+              <PctFree>10</PctFree>
+              <PctIncrease>50</PctIncrease>
+              <PctUsed>0</PctUsed>
+              <TablespaceName>USERS</TablespaceName>
+            </Storage>
+            <IndexType>Normal</IndexType>
+            <Status>VALID</Status>
+            <Instances>1</Instances>
+            <Degree>1</Degree>
+            <Logging>YES</Logging>
+            <Reverse>False</Reverse>
+            <Unsorted>False</Unsorted>
+            <Local>False</Local>
+            <CompressState>Disabled</CompressState>
+            <Compress>0</Compress>
+            <Partitioned>False</Partitioned>
+            <Visible>True</Visible>
+            <Enable>True</Enable>
+            <IsSystemNamed>False</IsSystemNamed>
+          </Object>
+          <Object type="Index">
+            <Name>SYS_IL0000113507C00004$$</Name>
+            <IsSystem>False</IsSystem>
+            <Unique>True</Unique>
+            <Storage>
+              <Name />
+              <IsSystem>False</IsSystem>
+              <IsIndex>True</IsIndex>
+              <BufferPool>DEFAULT</BufferPool>
+              <FreeLists>1</FreeLists>
+              <FreeListGroups>1</FreeListGroups>
+              <InitialExtent>
+                <Value>64</Value>
+                <TwoPower>10</TwoPower>
+                <SizeType>K</SizeType>
+              </InitialExtent>
+              <IniTrans>2</IniTrans>
+              <MaxExtents>
+                <Value>2147483645</Value>
+                <TwoPower>0</TwoPower>
+                <SizeType>UNDEFINED</SizeType>
+              </MaxExtents>
+              <MaxTrans>255</MaxTrans>
+              <MinExtents>1</MinExtents>
+              <NextExtent>
+                <Value>1</Value>
+                <TwoPower>20</TwoPower>
+                <SizeType>M</SizeType>
+              </NextExtent>
+              <PctFree>10</PctFree>
+              <PctIncrease>50</PctIncrease>
+              <PctUsed>0</PctUsed>
+              <TablespaceName>USERS</TablespaceName>
+            </Storage>
+            <IndexType>Lob</IndexType>
+            <Status>VALID</Status>
+            <Instances>0</Instances>
+            <Degree>0</Degree>
+            <Logging>YES</Logging>
+            <Reverse>False</Reverse>
+            <Unsorted>False</Unsorted>
+            <Local>False</Local>
+            <CompressState>Disabled</CompressState>
+            <Compress>0</Compress>
+            <Partitioned>False</Partitioned>
+            <Visible>True</Visible>
+            <Enable>True</Enable>
+            <IsSystemNamed>True</IsSystemNamed>
+          </Object>
+        </List>
+      </Object>
+      <Object tableType="Table">
+        <Name>ALLCHARTYPES</Name>
+        <IsSystem>False</IsSystem>
+        <List name="Columns">
+          <Object>
+            <Name>ID</Name>
+            <IsSystem>False</IsSystem>
+            <Comment />
+            <Type>
+              <Name>NUMBER</Name>
+              <Precision>10</Precision>
+              <Scale>0</Scale>
+              <Length>0</Length>
+              <Collation />
+              <CharUsed>Byte</CharUsed>
+            </Type>
+            <Default />
+            <Nullable>False</Nullable>
+            <IsUnique>False</IsUnique>
+            <IsPrimary>True</IsPrimary>
+            <DataTypeOwner />
+            <Reference>False</Reference>
+            <IsHidden>False</IsHidden>
+            <ColumnOrder>1</ColumnOrder>
+            <OldName />
+            <Collation />
+            <DefaultOnNull>False</DefaultOnNull>
+          </Object>
+          <Object>
+            <Name>C</Name>
+            <IsSystem>False</IsSystem>
+            <Comment />
+            <Type>
+              <Name>CHAR</Name>
+              <Precision />
+              <Scale />
+              <Length>20</Length>
+              <Collation>USING_NLS_COMP</Collation>
+              <CharUsed>Byte</CharUsed>
+            </Type>
+            <Default />
+            <Nullable>True</Nullable>
+            <IsUnique>False</IsUnique>
+            <IsPrimary>False</IsPrimary>
+            <DataTypeOwner />
+            <Reference>False</Reference>
+            <IsHidden>False</IsHidden>
+            <ColumnOrder>2</ColumnOrder>
+            <OldName />
+            <Collation>USING_NLS_COMP</Collation>
+            <DefaultOnNull>False</DefaultOnNull>
+          </Object>
+          <Object>
+            <Name>VC2</Name>
+            <IsSystem>False</IsSystem>
+            <Comment />
+            <Type>
+              <Name>VARCHAR2</Name>
+              <Precision />
+              <Scale />
+              <Length>20</Length>
+              <Collation>USING_NLS_COMP</Collation>
+              <CharUsed>Byte</CharUsed>
+            </Type>
+            <Default />
+            <Nullable>True</Nullable>
+            <IsUnique>False</IsUnique>
+            <IsPrimary>False</IsPrimary>
+            <DataTypeOwner />
+            <Reference>False</Reference>
+            <IsHidden>False</IsHidden>
+            <ColumnOrder>3</ColumnOrder>
+            <OldName />
+            <Collation>USING_NLS_COMP</Collation>
+            <DefaultOnNull>False</DefaultOnNull>
+          </Object>
+          <Object>
+            <Name>CL</Name>
+            <IsSystem>False</IsSystem>
+            <Comment />
+            <Type>
+              <Name>CLOB</Name>
+              <Precision />
+              <Scale />
+              <Length>0</Length>
+              <Collation>USING_NLS_COMP</Collation>
+              <CharUsed>Byte</CharUsed>
+            </Type>
+            <Default />
+            <Nullable>True</Nullable>
+            <IsUnique>False</IsUnique>
+            <IsPrimary>False</IsPrimary>
+            <DataTypeOwner />
+            <Reference>False</Reference>
+            <IsHidden>False</IsHidden>
+            <ColumnOrder>4</ColumnOrder>
+            <OldName />
+            <Collation>USING_NLS_COMP</Collation>
+            <DefaultOnNull>False</DefaultOnNull>
+          </Object>
+          <Object>
+            <Name>NC</Name>
+            <IsSystem>False</IsSystem>
+            <Comment />
+            <Type>
+              <Name>NCHAR</Name>
+              <Precision />
+              <Scale />
+              <Length>20</Length>
+              <Collation>USING_NLS_COMP</Collation>
+              <CharUsed>Char</CharUsed>
+            </Type>
+            <Default />
+            <Nullable>True</Nullable>
+            <IsUnique>False</IsUnique>
+            <IsPrimary>False</IsPrimary>
+            <DataTypeOwner />
+            <Reference>False</Reference>
+            <IsHidden>False</IsHidden>
+            <ColumnOrder>5</ColumnOrder>
+            <OldName />
+            <Collation>USING_NLS_COMP</Collation>
+            <DefaultOnNull>False</DefaultOnNull>
+          </Object>
+          <Object>
+            <Name>NVC2</Name>
+            <IsSystem>False</IsSystem>
+            <Comment />
+            <Type>
+              <Name>NVARCHAR2</Name>
+              <Precision />
+              <Scale />
+              <Length>20</Length>
+              <Collation>USING_NLS_COMP</Collation>
+              <CharUsed>Char</CharUsed>
+            </Type>
+            <Default />
+            <Nullable>True</Nullable>
+            <IsUnique>False</IsUnique>
+            <IsPrimary>False</IsPrimary>
+            <DataTypeOwner />
+            <Reference>False</Reference>
+            <IsHidden>False</IsHidden>
+            <ColumnOrder>6</ColumnOrder>
+            <OldName />
+            <Collation>USING_NLS_COMP</Collation>
+            <DefaultOnNull>False</DefaultOnNull>
+          </Object>
+          <Object>
+            <Name>NCL</Name>
+            <IsSystem>False</IsSystem>
+            <Comment />
+            <Type>
+              <Name>NCLOB</Name>
+              <Precision />
+              <Scale />
+              <Length>0</Length>
+              <Collation>USING_NLS_COMP</Collation>
+              <CharUsed>Byte</CharUsed>
+            </Type>
+            <Default />
+            <Nullable>True</Nullable>
+            <IsUnique>False</IsUnique>
+            <IsPrimary>False</IsPrimary>
+            <DataTypeOwner />
+            <Reference>False</Reference>
+            <IsHidden>False</IsHidden>
+            <ColumnOrder>7</ColumnOrder>
+            <OldName />
+            <Collation>USING_NLS_COMP</Collation>
+            <DefaultOnNull>False</DefaultOnNull>
+          </Object>
+        </List>
+        <Storage>
+          <Name />
+          <IsSystem>False</IsSystem>
+          <IsIndex>False</IsIndex>
+          <BufferPool>DEFAULT</BufferPool>
+          <FreeLists>1</FreeLists>
+          <FreeListGroups>1</FreeListGroups>
+          <InitialExtent>
+            <Value>64</Value>
+            <TwoPower>10</TwoPower>
+            <SizeType>K</SizeType>
+          </InitialExtent>
+          <IniTrans>1</IniTrans>
+          <MaxExtents>
+            <Value>2147483645</Value>
+            <TwoPower>0</TwoPower>
+            <SizeType>UNDEFINED</SizeType>
+          </MaxExtents>
+          <MaxTrans>255</MaxTrans>
+          <MinExtents>1</MinExtents>
+          <NextExtent>
+            <Value>1</Value>
+            <TwoPower>20</TwoPower>
+            <SizeType>M</SizeType>
+          </NextExtent>
+          <PctFree>10</PctFree>
+          <PctIncrease>50</PctIncrease>
+          <PctUsed>40</PctUsed>
+          <TablespaceName>USERS</TablespaceName>
+        </Storage>
+        <Compression>DISABLED</Compression>
+        <CompressForAllTag>False</CompressForAllTag>
+        <Degree>1</Degree>
+        <Instances>1</Instances>
+        <Locked>ENABLED</Locked>
+        <RowDependencies>DISABLED</RowDependencies>
+        <Logging>YES</Logging>
+        <Monitoring />
+        <Caching>N</Caching>
+        <Comment />
+        <Status>VALID</Status>
+        <BackedUp>N</BackedUp>
+        <ClusterName />
+        <RowMovement>DISABLED</RowMovement>
+        <TableMode>NORMAL</TableMode>
+        <UseOverflow>False</UseOverflow>
+        <Mapping>False</Mapping>
+        <Threshold>50</Threshold>
+        <IncludeColumn>not specified</IncludeColumn>
+        <ClusterOwner>AUTOTEST_DATAEDITOR</ClusterOwner>
+        <IsReadOnly>False</IsReadOnly>
+        <ResultCache>DEFAULT</ResultCache>
+        <FlashbackArchiveName />
+        <Partitioned>False</Partitioned>
+        <Editable>True</Editable>
+        <Temporary>False</Temporary>
+        <TemporarySession>False</TemporarySession>
+        <AttributeClustered>False</AttributeClustered>
+        <List name="Constraints">
+          <Object type="UniqueKey">
+            <Name>PK_ALLCHARTYPES</Name>
+            <IsSystem>False</IsSystem>
+            <List name="Columns">
+              <Item>ID</Item>
+            </List>
+            <Unique>True</Unique>
+            <IsPrimary>True</IsPrimary>
+            <IndexOwner>AUTOTEST_DATAEDITOR</IndexOwner>
+            <IndexName>PK_ALLCHARTYPES</IndexName>
+            <ConstraintStates>
+              <Enabled>True</Enabled>
+              <Deferrable>NOT DEFERRABLE</Deferrable>
+              <Deferred>IMMEDIATE</Deferred>
+              <Validated>True</Validated>
+              <Generated>USER NAME</Generated>
+              <Bad>False</Bad>
+              <Rely>False</Rely>
+            </ConstraintStates>
+          </Object>
+        </List>
+        <List name="Indexes">
+          <Object type="Index">
+            <Name>PK_ALLCHARTYPES</Name>
+            <IsSystem>False</IsSystem>
+            <List name="Columns">
+              <Item>ID</Item>
+            </List>
+            <List name="SortOrder">
+              <Item>Asc</Item>
+            </List>
+            <Unique>True</Unique>
+            <Storage>
+              <Name />
+              <IsSystem>False</IsSystem>
+              <IsIndex>True</IsIndex>
+              <BufferPool>DEFAULT</BufferPool>
+              <FreeLists>1</FreeLists>
+              <FreeListGroups>1</FreeListGroups>
+              <InitialExtent>
+                <Value>64</Value>
+                <TwoPower>10</TwoPower>
+                <SizeType>K</SizeType>
+              </InitialExtent>
+              <IniTrans>2</IniTrans>
+              <MaxExtents>
+                <Value>2147483645</Value>
+                <TwoPower>0</TwoPower>
+                <SizeType>UNDEFINED</SizeType>
+              </MaxExtents>
+              <MaxTrans>255</MaxTrans>
+              <MinExtents>1</MinExtents>
+              <NextExtent>
+                <Value>1</Value>
+                <TwoPower>20</TwoPower>
+                <SizeType>M</SizeType>
+              </NextExtent>
+              <PctFree>10</PctFree>
+              <PctIncrease>50</PctIncrease>
+              <PctUsed>0</PctUsed>
+              <TablespaceName>USERS</TablespaceName>
+            </Storage>
+            <IndexType>Normal</IndexType>
+            <Status>VALID</Status>
+            <Instances>1</Instances>
+            <Degree>1</Degree>
+            <Logging>YES</Logging>
+            <Reverse>False</Reverse>
+            <Unsorted>False</Unsorted>
+            <Local>False</Local>
+            <CompressState>Disabled</CompressState>
+            <Compress>0</Compress>
+            <Partitioned>False</Partitioned>
+            <Visible>True</Visible>
+            <Enable>True</Enable>
+            <IsSystemNamed>False</IsSystemNamed>
+          </Object>
+          <Object type="Index">
+            <Name>SYS_IL0000113511C00004$$</Name>
+            <IsSystem>False</IsSystem>
+            <Unique>True</Unique>
+            <Storage>
+              <Name />
+              <IsSystem>False</IsSystem>
+              <IsIndex>True</IsIndex>
+              <BufferPool>DEFAULT</BufferPool>
+              <FreeLists>1</FreeLists>
+              <FreeListGroups>1</FreeListGroups>
+              <InitialExtent>
+                <Value>64</Value>
+                <TwoPower>10</TwoPower>
+                <SizeType>K</SizeType>
+              </InitialExtent>
+              <IniTrans>2</IniTrans>
+              <MaxExtents>
+                <Value>2147483645</Value>
+                <TwoPower>0</TwoPower>
+                <SizeType>UNDEFINED</SizeType>
+              </MaxExtents>
+              <MaxTrans>255</MaxTrans>
+              <MinExtents>1</MinExtents>
+              <NextExtent>
+                <Value>1</Value>
+                <TwoPower>20</TwoPower>
+                <SizeType>M</SizeType>
+              </NextExtent>
+              <PctFree>10</PctFree>
+              <PctIncrease>50</PctIncrease>
+              <PctUsed>0</PctUsed>
+              <TablespaceName>USERS</TablespaceName>
+            </Storage>
+            <IndexType>Lob</IndexType>
+            <Status>VALID</Status>
+            <Instances>0</Instances>
+            <Degree>0</Degree>
+            <Logging>YES</Logging>
+            <Reverse>False</Reverse>
+            <Unsorted>False</Unsorted>
+            <Local>False</Local>
+            <CompressState>Disabled</CompressState>
+            <Compress>0</Compress>
+            <Partitioned>False</Partitioned>
+            <Visible>True</Visible>
+            <Enable>True</Enable>
+            <IsSystemNamed>True</IsSystemNamed>
+          </Object>
+          <Object type="Index">
+            <Name>SYS_IL0000113511C00007$$</Name>
+            <IsSystem>False</IsSystem>
+            <Unique>True</Unique>
+            <Storage>
+              <Name />
+              <IsSystem>False</IsSystem>
+              <IsIndex>True</IsIndex>
+              <BufferPool>DEFAULT</BufferPool>
+              <FreeLists>1</FreeLists>
+              <FreeListGroups>1</FreeListGroups>
+              <InitialExtent>
+                <Value>64</Value>
+                <TwoPower>10</TwoPower>
+                <SizeType>K</SizeType>
+              </InitialExtent>
+              <IniTrans>2</IniTrans>
+              <MaxExtents>
+                <Value>2147483645</Value>
+                <TwoPower>0</TwoPower>
+                <SizeType>UNDEFINED</SizeType>
+              </MaxExtents>
+              <MaxTrans>255</MaxTrans>
+              <MinExtents>1</MinExtents>
+              <NextExtent>
+                <Value>1</Value>
+                <TwoPower>20</TwoPower>
+                <SizeType>M</SizeType>
+              </NextExtent>
+              <PctFree>10</PctFree>
+              <PctIncrease>50</PctIncrease>
+              <PctUsed>0</PctUsed>
+              <TablespaceName>USERS</TablespaceName>
+            </Storage>
+            <IndexType>Lob</IndexType>
+            <Status>VALID</Status>
+            <Instances>0</Instances>
+            <Degree>0</Degree>
+            <Logging>YES</Logging>
+            <Reverse>False</Reverse>
+            <Unsorted>False</Unsorted>
+            <Local>False</Local>
+            <CompressState>Disabled</CompressState>
+            <Compress>0</Compress>
+            <Partitioned>False</Partitioned>
+            <Visible>True</Visible>
+            <Enable>True</Enable>
+            <IsSystemNamed>True</IsSystemNamed>
+          </Object>
+        </List>
+      </Object>
+      <Object tableType="Table">
+        <Name>ALLNUMTYPES</Name>
+        <IsSystem>False</IsSystem>
+        <List name="Columns">
+          <Object>
+            <Name>id</Name>
+            <IsSystem>False</IsSystem>
+            <Comment />
+            <Type>
+              <Name>NUMBER</Name>
+              <Precision>10</Precision>
+              <Scale>0</Scale>
+              <Length>0</Length>
+              <Collation />
+              <CharUsed>Byte</CharUsed>
+            </Type>
+            <Default />
+            <Nullable>False</Nullable>
+            <IsUnique>False</IsUnique>
+            <IsPrimary>True</IsPrimary>
+            <DataTypeOwner />
+            <Reference>False</Reference>
+            <IsHidden>False</IsHidden>
+            <ColumnOrder>1</ColumnOrder>
+            <OldName />
+            <Collation />
+            <DefaultOnNull>False</DefaultOnNull>
+          </Object>
+          <Object>
+            <Name>BF</Name>
+            <IsSystem>False</IsSystem>
+            <Comment />
+            <Type>
+              <Name>BINARY_FLOAT</Name>
+              <Precision />
+              <Scale />
+              <Length>0</Length>
+              <Collation />
+              <CharUsed>Byte</CharUsed>
+            </Type>
+            <Default />
+            <Nullable>True</Nullable>
+            <IsUnique>False</IsUnique>
+            <IsPrimary>False</IsPrimary>
+            <DataTypeOwner />
+            <Reference>False</Reference>
+            <IsHidden>False</IsHidden>
+            <ColumnOrder>2</ColumnOrder>
+            <OldName />
+            <Collation />
+            <DefaultOnNull>False</DefaultOnNull>
+          </Object>
+          <Object>
+            <Name>BD</Name>
+            <IsSystem>False</IsSystem>
+            <Comment />
+            <Type>
+              <Name>BINARY_DOUBLE</Name>
+              <Precision />
+              <Scale />
+              <Length>0</Length>
+              <Collation />
+              <CharUsed>Byte</CharUsed>
+            </Type>
+            <Default />
+            <Nullable>True</Nullable>
+            <IsUnique>False</IsUnique>
+            <IsPrimary>False</IsPrimary>
+            <DataTypeOwner />
+            <Reference>False</Reference>
+            <IsHidden>False</IsHidden>
+            <ColumnOrder>3</ColumnOrder>
+            <OldName />
+            <Collation />
+            <DefaultOnNull>False</DefaultOnNull>
+          </Object>
+          <Object>
+            <Name>IDECIMAL</Name>
+            <IsSystem>False</IsSystem>
+            <Comment />
+            <Type>
+              <Name>NUMBER</Name>
+              <Precision>38</Precision>
+              <Scale>0</Scale>
+              <Length>0</Length>
+              <Collation />
+              <CharUsed>Byte</CharUsed>
+            </Type>
+            <Default />
+            <Nullable>True</Nullable>
+            <IsUnique>False</IsUnique>
+            <IsPrimary>False</IsPrimary>
+            <DataTypeOwner />
+            <Reference>False</Reference>
+            <IsHidden>False</IsHidden>
+            <ColumnOrder>4</ColumnOrder>
+            <OldName />
+            <Collation />
+            <DefaultOnNull>False</DefaultOnNull>
+          </Object>
+          <Object>
+            <Name>BI</Name>
+            <IsSystem>False</IsSystem>
+            <Comment />
+            <Type>
+              <Name>NUMBER</Name>
+              <Precision>18</Precision>
+              <Scale>0</Scale>
+              <Length>0</Length>
+              <Collation />
+              <CharUsed>Byte</CharUsed>
+            </Type>
+            <Default />
+            <Nullable>True</Nullable>
+            <IsUnique>False</IsUnique>
+            <IsPrimary>False</IsPrimary>
+            <DataTypeOwner />
+            <Reference>False</Reference>
+            <IsHidden>False</IsHidden>
+            <ColumnOrder>5</ColumnOrder>
+            <OldName />
+            <Collation />
+            <DefaultOnNull>False</DefaultOnNull>
+          </Object>
+          <Object>
+            <Name>I</Name>
+            <IsSystem>False</IsSystem>
+            <Comment />
+            <Type>
+              <Name>NUMBER</Name>
+              <Precision>9</Precision>
+              <Scale>0</Scale>
+              <Length>0</Length>
+              <Collation />
+              <CharUsed>Byte</CharUsed>
+            </Type>
+            <Default />
+            <Nullable>True</Nullable>
+            <IsUnique>False</IsUnique>
+            <IsPrimary>False</IsPrimary>
+            <DataTypeOwner />
+            <Reference>False</Reference>
+            <IsHidden>False</IsHidden>
+            <ColumnOrder>6</ColumnOrder>
+            <OldName />
+            <Collation />
+            <DefaultOnNull>False</DefaultOnNull>
+          </Object>
+          <Object>
+            <Name>SI</Name>
+            <IsSystem>False</IsSystem>
+            <Comment />
+            <Type>
+              <Name>NUMBER</Name>
+              <Precision>5</Precision>
+              <Scale>0</Scale>
+              <Length>0</Length>
+              <Collation />
+              <CharUsed>Byte</CharUsed>
+            </Type>
+            <Default />
+            <Nullable>True</Nullable>
+            <IsUnique>False</IsUnique>
+            <IsPrimary>False</IsPrimary>
+            <DataTypeOwner />
+            <Reference>False</Reference>
+            <IsHidden>False</IsHidden>
+            <ColumnOrder>7</ColumnOrder>
+            <OldName />
+            <Collation />
+            <DefaultOnNull>False</DefaultOnNull>
+          </Object>
+          <Object>
+            <Name>F</Name>
+            <IsSystem>False</IsSystem>
+            <Comment />
+            <Type>
+              <Name>NUMBER</Name>
+              <Precision>10</Precision>
+              <Scale>5</Scale>
+              <Length>0</Length>
+              <Collation />
+              <CharUsed>Byte</CharUsed>
+            </Type>
+            <Default />
+            <Nullable>True</Nullable>
+            <IsUnique>False</IsUnique>
+            <IsPrimary>False</IsPrimary>
+            <DataTypeOwner />
+            <Reference>False</Reference>
+            <IsHidden>False</IsHidden>
+            <ColumnOrder>8</ColumnOrder>
+            <OldName />
+            <Collation />
+            <DefaultOnNull>False</DefaultOnNull>
+          </Object>
+        </List>
+        <Storage>
+          <Name />
+          <IsSystem>False</IsSystem>
+          <IsIndex>False</IsIndex>
+          <BufferPool>DEFAULT</BufferPool>
+          <FreeLists>1</FreeLists>
+          <FreeListGroups>1</FreeListGroups>
+          <InitialExtent>
+            <Value>64</Value>
+            <TwoPower>10</TwoPower>
+            <SizeType>K</SizeType>
+          </InitialExtent>
+          <IniTrans>1</IniTrans>
+          <MaxExtents>
+            <Value>2147483645</Value>
+            <TwoPower>0</TwoPower>
+            <SizeType>UNDEFINED</SizeType>
+          </MaxExtents>
+          <MaxTrans>255</MaxTrans>
+          <MinExtents>1</MinExtents>
+          <NextExtent>
+            <Value>1</Value>
+            <TwoPower>20</TwoPower>
+            <SizeType>M</SizeType>
+          </NextExtent>
+          <PctFree>10</PctFree>
+          <PctIncrease>50</PctIncrease>
+          <PctUsed>40</PctUsed>
+          <TablespaceName>USERS</TablespaceName>
+        </Storage>
+        <Compression>DISABLED</Compression>
+        <CompressForAllTag>False</CompressForAllTag>
+        <Degree>1</Degree>
+        <Instances>1</Instances>
+        <Locked>ENABLED</Locked>
+        <RowDependencies>DISABLED</RowDependencies>
+        <Logging>YES</Logging>
+        <Monitoring />
+        <Caching>N</Caching>
+        <Comment />
+        <Status>VALID</Status>
+        <BackedUp>N</BackedUp>
+        <ClusterName />
+        <RowMovement>DISABLED</RowMovement>
+        <TableMode>NORMAL</TableMode>
+        <UseOverflow>False</UseOverflow>
+        <Mapping>False</Mapping>
+        <Threshold>50</Threshold>
+        <IncludeColumn>not specified</IncludeColumn>
+        <ClusterOwner>AUTOTEST_DATAEDITOR</ClusterOwner>
+        <IsReadOnly>False</IsReadOnly>
+        <ResultCache>DEFAULT</ResultCache>
+        <FlashbackArchiveName />
+        <Partitioned>False</Partitioned>
+        <Editable>True</Editable>
+        <Temporary>False</Temporary>
+        <TemporarySession>False</TemporarySession>
+        <AttributeClustered>False</AttributeClustered>
+        <List name="Constraints">
+          <Object type="UniqueKey">
+            <Name>PK_TABLE1</Name>
+            <IsSystem>False</IsSystem>
+            <List name="Columns">
+              <Item>id</Item>
+            </List>
+            <Unique>True</Unique>
+            <IsPrimary>True</IsPrimary>
+            <IndexOwner>AUTOTEST_DATAEDITOR</IndexOwner>
+            <IndexName>PK_TABLE1</IndexName>
+            <ConstraintStates>
+              <Enabled>True</Enabled>
+              <Deferrable>NOT DEFERRABLE</Deferrable>
+              <Deferred>IMMEDIATE</Deferred>
+              <Validated>True</Validated>
+              <Generated>USER NAME</Generated>
+              <Bad>False</Bad>
+              <Rely>False</Rely>
+            </ConstraintStates>
+          </Object>
+        </List>
+        <List name="Indexes">
+          <Object type="Index">
+            <Name>PK_TABLE1</Name>
+            <IsSystem>False</IsSystem>
+            <List name="Columns">
+              <Item>id</Item>
+            </List>
+            <List name="SortOrder">
+              <Item>Asc</Item>
+            </List>
+            <Unique>True</Unique>
+            <Storage>
+              <Name />
+              <IsSystem>False</IsSystem>
+              <IsIndex>True</IsIndex>
+              <BufferPool>DEFAULT</BufferPool>
+              <FreeLists>1</FreeLists>
+              <FreeListGroups>1</FreeListGroups>
+              <InitialExtent>
+                <Value>64</Value>
+                <TwoPower>10</TwoPower>
+                <SizeType>K</SizeType>
+              </InitialExtent>
+              <IniTrans>2</IniTrans>
+              <MaxExtents>
+                <Value>2147483645</Value>
+                <TwoPower>0</TwoPower>
+                <SizeType>UNDEFINED</SizeType>
+              </MaxExtents>
+              <MaxTrans>255</MaxTrans>
+              <MinExtents>1</MinExtents>
+              <NextExtent>
+                <Value>1</Value>
+                <TwoPower>20</TwoPower>
+                <SizeType>M</SizeType>
+              </NextExtent>
+              <PctFree>10</PctFree>
+              <PctIncrease>50</PctIncrease>
+              <PctUsed>0</PctUsed>
+              <TablespaceName>USERS</TablespaceName>
+            </Storage>
+            <IndexType>Normal</IndexType>
+            <Status>VALID</Status>
+            <Instances>1</Instances>
+            <Degree>1</Degree>
+            <Logging>YES</Logging>
+            <Reverse>False</Reverse>
+            <Unsorted>False</Unsorted>
+            <Local>False</Local>
+            <CompressState>Disabled</CompressState>
+            <Compress>0</Compress>
+            <Partitioned>False</Partitioned>
+            <Visible>True</Visible>
+            <Enable>True</Enable>
+            <IsSystemNamed>False</IsSystemNamed>
+          </Object>
+        </List>
+      </Object>
+      <Object tableType="Table">
+        <Name>ALLTIMETYPES</Name>
+        <IsSystem>False</IsSystem>
+        <List name="Columns">
+          <Object>
+            <Name>ID</Name>
+            <IsSystem>False</IsSystem>
+            <Comment />
+            <Type>
+              <Name>NUMBER</Name>
+              <Precision>10</Precision>
+              <Scale>0</Scale>
+              <Length>0</Length>
+              <Collation />
+              <CharUsed>Byte</CharUsed>
+            </Type>
+            <Default />
+            <Nullable>False</Nullable>
+            <IsUnique>False</IsUnique>
+            <IsPrimary>True</IsPrimary>
+            <DataTypeOwner />
+            <Reference>False</Reference>
+            <IsHidden>False</IsHidden>
+            <ColumnOrder>1</ColumnOrder>
+            <OldName />
+            <Collation />
+            <DefaultOnNull>False</DefaultOnNull>
+          </Object>
+          <Object>
+            <Name>D</Name>
+            <IsSystem>False</IsSystem>
+            <Comment />
+            <Type>
+              <Name>DATE</Name>
+              <Precision />
+              <Scale />
+              <Length>7</Length>
+              <Collation />
+              <CharUsed>Byte</CharUsed>
+            </Type>
+            <Default />
+            <Nullable>True</Nullable>
+            <IsUnique>False</IsUnique>
+            <IsPrimary>False</IsPrimary>
+            <DataTypeOwner />
+            <Reference>False</Reference>
+            <IsHidden>False</IsHidden>
+            <ColumnOrder>2</ColumnOrder>
+            <OldName />
+            <Collation />
+            <DefaultOnNull>False</DefaultOnNull>
+          </Object>
+          <Object>
+            <Name>TS</Name>
+            <IsSystem>False</IsSystem>
+            <Comment />
+            <Type>
+              <Name>TIMESTAMP</Name>
+              <Precision />
+              <Scale>6</Scale>
+              <Length>0</Length>
+              <Collation />
+              <CharUsed>Byte</CharUsed>
+            </Type>
+            <Default />
+            <Nullable>True</Nullable>
+            <IsUnique>False</IsUnique>
+            <IsPrimary>False</IsPrimary>
+            <DataTypeOwner />
+            <Reference>False</Reference>
+            <IsHidden>False</IsHidden>
+            <ColumnOrder>3</ColumnOrder>
+            <OldName />
+            <Collation />
+            <DefaultOnNull>False</DefaultOnNull>
+          </Object>
+          <Object>
+            <Name>TSTZ</Name>
+            <IsSystem>False</IsSystem>
+            <Comment />
+            <Type>
+              <Name>TIMESTAMP WITH TIME ZONE</Name>
+              <Precision />
+              <Scale>6</Scale>
+              <Length>0</Length>
+              <Collation />
+              <CharUsed>Byte</CharUsed>
+            </Type>
+            <Default />
+            <Nullable>True</Nullable>
+            <IsUnique>False</IsUnique>
+            <IsPrimary>False</IsPrimary>
+            <DataTypeOwner />
+            <Reference>False</Reference>
+            <IsHidden>False</IsHidden>
+            <ColumnOrder>4</ColumnOrder>
+            <OldName />
+            <Collation />
+            <DefaultOnNull>False</DefaultOnNull>
+          </Object>
+          <Object>
+            <Name>TSLTZ</Name>
+            <IsSystem>False</IsSystem>
+            <Comment />
+            <Type>
+              <Name>TIMESTAMP WITH LOCAL TIME ZONE</Name>
+              <Precision />
+              <Scale>6</Scale>
+              <Length>0</Length>
+              <Collation />
+              <CharUsed>Byte</CharUsed>
+            </Type>
+            <Default />
+            <Nullable>True</Nullable>
+            <IsUnique>False</IsUnique>
+            <IsPrimary>False</IsPrimary>
+            <DataTypeOwner />
+            <Reference>False</Reference>
+            <IsHidden>False</IsHidden>
+            <ColumnOrder>5</ColumnOrder>
+            <OldName />
+            <Collation />
+            <DefaultOnNull>False</DefaultOnNull>
+          </Object>
+        </List>
+        <Storage>
+          <Name />
+          <IsSystem>False</IsSystem>
+          <IsIndex>False</IsIndex>
+          <BufferPool>DEFAULT</BufferPool>
+          <FreeLists>1</FreeLists>
+          <FreeListGroups>1</FreeListGroups>
+          <InitialExtent>
+            <Value>64</Value>
+            <TwoPower>10</TwoPower>
+            <SizeType>K</SizeType>
+          </InitialExtent>
+          <IniTrans>1</IniTrans>
+          <MaxExtents>
+            <Value>2147483645</Value>
+            <TwoPower>0</TwoPower>
+            <SizeType>UNDEFINED</SizeType>
+          </MaxExtents>
+          <MaxTrans>255</MaxTrans>
+          <MinExtents>1</MinExtents>
+          <NextExtent>
+            <Value>1</Value>
+            <TwoPower>20</TwoPower>
+            <SizeType>M</SizeType>
+          </NextExtent>
+          <PctFree>10</PctFree>
+          <PctIncrease>50</PctIncrease>
+          <PctUsed>40</PctUsed>
+          <TablespaceName>USERS</TablespaceName>
+        </Storage>
+        <Compression>DISABLED</Compression>
+        <CompressForAllTag>False</CompressForAllTag>
+        <Degree>1</Degree>
+        <Instances>1</Instances>
+        <Locked>ENABLED</Locked>
+        <RowDependencies>DISABLED</RowDependencies>
+        <Logging>YES</Logging>
+        <Monitoring />
+        <Caching>N</Caching>
+        <Comment />
+        <Status>VALID</Status>
+        <BackedUp>N</BackedUp>
+        <ClusterName />
+        <RowMovement>DISABLED</RowMovement>
+        <TableMode>NORMAL</TableMode>
+        <UseOverflow>False</UseOverflow>
+        <Mapping>False</Mapping>
+        <Threshold>50</Threshold>
+        <IncludeColumn>not specified</IncludeColumn>
+        <ClusterOwner>AUTOTEST_DATAEDITOR</ClusterOwner>
+        <IsReadOnly>False</IsReadOnly>
+        <ResultCache>DEFAULT</ResultCache>
+        <FlashbackArchiveName />
+        <Partitioned>False</Partitioned>
+        <Editable>True</Editable>
+        <Temporary>False</Temporary>
+        <TemporarySession>False</TemporarySession>
+        <AttributeClustered>False</AttributeClustered>
+        <List name="Constraints">
+          <Object type="UniqueKey">
+            <Name>PK_ALLTIMETYPES</Name>
+            <IsSystem>False</IsSystem>
+            <List name="Columns">
+              <Item>ID</Item>
+            </List>
+            <Unique>True</Unique>
+            <IsPrimary>True</IsPrimary>
+            <IndexOwner>AUTOTEST_DATAEDITOR</IndexOwner>
+            <IndexName>PK_ALLTIMETYPES</IndexName>
+            <ConstraintStates>
+              <Enabled>True</Enabled>
+              <Deferrable>NOT DEFERRABLE</Deferrable>
+              <Deferred>IMMEDIATE</Deferred>
+              <Validated>True</Validated>
+              <Generated>USER NAME</Generated>
+              <Bad>False</Bad>
+              <Rely>False</Rely>
+            </ConstraintStates>
+          </Object>
+        </List>
+        <List name="Indexes">
+          <Object type="Index">
+            <Name>PK_ALLTIMETYPES</Name>
+            <IsSystem>False</IsSystem>
+            <List name="Columns">
+              <Item>ID</Item>
+            </List>
+            <List name="SortOrder">
+              <Item>Asc</Item>
+            </List>
+            <Unique>True</Unique>
+            <Storage>
+              <Name />
+              <IsSystem>False</IsSystem>
+              <IsIndex>True</IsIndex>
+              <BufferPool>DEFAULT</BufferPool>
+              <FreeLists>1</FreeLists>
+              <FreeListGroups>1</FreeListGroups>
+              <InitialExtent>
+                <Value>64</Value>
+                <TwoPower>10</TwoPower>
+                <SizeType>K</SizeType>
+              </InitialExtent>
+              <IniTrans>2</IniTrans>
+              <MaxExtents>
+                <Value>2147483645</Value>
+                <TwoPower>0</TwoPower>
+                <SizeType>UNDEFINED</SizeType>
+              </MaxExtents>
+              <MaxTrans>255</MaxTrans>
+              <MinExtents>1</MinExtents>
+              <NextExtent>
+                <Value>1</Value>
+                <TwoPower>20</TwoPower>
+                <SizeType>M</SizeType>
+              </NextExtent>
+              <PctFree>10</PctFree>
+              <PctIncrease>50</PctIncrease>
+              <PctUsed>0</PctUsed>
+              <TablespaceName>USERS</TablespaceName>
+            </Storage>
+            <IndexType>Normal</IndexType>
+            <Status>VALID</Status>
+            <Instances>1</Instances>
+            <Degree>1</Degree>
+            <Logging>YES</Logging>
+            <Reverse>False</Reverse>
+            <Unsorted>False</Unsorted>
+            <Local>False</Local>
+            <CompressState>Disabled</CompressState>
+            <Compress>0</Compress>
+            <Partitioned>False</Partitioned>
+            <Visible>True</Visible>
+            <Enable>True</Enable>
+            <IsSystemNamed>False</IsSystemNamed>
+          </Object>
+        </List>
+      </Object>
+      <Object tableType="Table">
+        <Name>AT</Name>
+        <IsSystem>False</IsSystem>
+        <List name="Columns">
+          <Object>
+            <Name>ID</Name>
+            <IsSystem>False</IsSystem>
+            <Comment />
+            <Type>
+              <Name>NUMBER</Name>
+              <Precision />
+              <Scale />
+              <Length>0</Length>
+              <Collation />
+              <CharUsed>Byte</CharUsed>
+            </Type>
+            <Default />
+            <Nullable>False</Nullable>
+            <IsUnique>False</IsUnique>
+            <IsPrimary>True</IsPrimary>
+            <DataTypeOwner />
+            <Reference>False</Reference>
+            <IsHidden>False</IsHidden>
+            <ColumnOrder>1</ColumnOrder>
+            <OldName />
+            <Collation />
+            <DefaultOnNull>False</DefaultOnNull>
+          </Object>
+          <Object>
+            <Name>AT</Name>
+            <IsSystem>False</IsSystem>
+            <Comment />
+            <Type>
+              <Name>AT1</Name>
+              <Precision />
+              <Scale />
+              <Length>1137</Length>
+              <Collation />
+              <CharUsed>Byte</CharUsed>
+            </Type>
+            <Default />
+            <Nullable>True</Nullable>
+            <IsUnique>False</IsUnique>
+            <IsPrimary>False</IsPrimary>
+            <DataTypeOwner>AUTOTEST_DATAEDITOR</DataTypeOwner>
+            <Reference>False</Reference>
+            <IsHidden>False</IsHidden>
+            <ColumnOrder>2</ColumnOrder>
+            <OldName />
+            <Collation />
+            <DefaultOnNull>False</DefaultOnNull>
+          </Object>
+        </List>
+        <Storage>
+          <Name />
+          <IsSystem>False</IsSystem>
+          <IsIndex>False</IsIndex>
+          <BufferPool>DEFAULT</BufferPool>
+          <FreeLists>1</FreeLists>
+          <FreeListGroups>1</FreeListGroups>
+          <InitialExtent>
+            <Value>64</Value>
+            <TwoPower>10</TwoPower>
+            <SizeType>K</SizeType>
+          </InitialExtent>
+          <IniTrans>1</IniTrans>
+          <MaxExtents>
+            <Value>2147483645</Value>
+            <TwoPower>0</TwoPower>
+            <SizeType>UNDEFINED</SizeType>
+          </MaxExtents>
+          <MaxTrans>255</MaxTrans>
+          <MinExtents>1</MinExtents>
+          <NextExtent>
+            <Value>1</Value>
+            <TwoPower>20</TwoPower>
+            <SizeType>M</SizeType>
+          </NextExtent>
+          <PctFree>10</PctFree>
+          <PctIncrease>50</PctIncrease>
+          <PctUsed>40</PctUsed>
+          <TablespaceName>USERS</TablespaceName>
+        </Storage>
+        <Compression>DISABLED</Compression>
+        <CompressForAllTag>False</CompressForAllTag>
+        <Degree>1</Degree>
+        <Instances>1</Instances>
+        <Locked>ENABLED</Locked>
+        <RowDependencies>DISABLED</RowDependencies>
+        <Logging>YES</Logging>
+        <Monitoring />
+        <Caching>N</Caching>
+        <Comment />
+        <Status>VALID</Status>
+        <BackedUp>N</BackedUp>
+        <ClusterName />
+        <RowMovement>DISABLED</RowMovement>
+        <TableMode>NORMAL</TableMode>
+        <UseOverflow>False</UseOverflow>
+        <Mapping>False</Mapping>
+        <Threshold>50</Threshold>
+        <IncludeColumn>not specified</IncludeColumn>
+        <ClusterOwner>AUTOTEST_DATAEDITOR</ClusterOwner>
+        <IsReadOnly>False</IsReadOnly>
+        <ResultCache>DEFAULT</ResultCache>
+        <FlashbackArchiveName />
+        <Partitioned>False</Partitioned>
+        <Editable>True</Editable>
+        <Temporary>False</Temporary>
+        <TemporarySession>False</TemporarySession>
+        <AttributeClustered>False</AttributeClustered>
+        <List name="Constraints">
+          <Object type="UniqueKey">
+            <Name>SYS_C00472697</Name>
+            <IsSystem>False</IsSystem>
+            <List name="Columns">
+              <Item>ID</Item>
+            </List>
+            <Unique>True</Unique>
+            <IsPrimary>True</IsPrimary>
+            <IndexOwner>AUTOTEST_DATAEDITOR</IndexOwner>
+            <IndexName>SYS_C00472697</IndexName>
+            <ConstraintStates>
+              <Enabled>True</Enabled>
+              <Deferrable>NOT DEFERRABLE</Deferrable>
+              <Deferred>IMMEDIATE</Deferred>
+              <Validated>True</Validated>
+              <Generated>GENERATED NAME</Generated>
+              <Bad>False</Bad>
+              <Rely>False</Rely>
+            </ConstraintStates>
+          </Object>
+        </List>
+        <List name="Indexes">
+          <Object type="Index">
+            <Name>SYS_C00472697</Name>
+            <IsSystem>False</IsSystem>
+            <List name="Columns">
+              <Item>ID</Item>
+            </List>
+            <List name="SortOrder">
+              <Item>Asc</Item>
+            </List>
+            <Unique>True</Unique>
+            <Storage>
+              <Name />
+              <IsSystem>False</IsSystem>
+              <IsIndex>True</IsIndex>
+              <BufferPool>DEFAULT</BufferPool>
+              <FreeLists>1</FreeLists>
+              <FreeListGroups>1</FreeListGroups>
+              <InitialExtent>
+                <Value>64</Value>
+                <TwoPower>10</TwoPower>
+                <SizeType>K</SizeType>
+              </InitialExtent>
+              <IniTrans>2</IniTrans>
+              <MaxExtents>
+                <Value>2147483645</Value>
+                <TwoPower>0</TwoPower>
+                <SizeType>UNDEFINED</SizeType>
+              </MaxExtents>
+              <MaxTrans>255</MaxTrans>
+              <MinExtents>1</MinExtents>
+              <NextExtent>
+                <Value>1</Value>
+                <TwoPower>20</TwoPower>
+                <SizeType>M</SizeType>
+              </NextExtent>
+              <PctFree>10</PctFree>
+              <PctIncrease>50</PctIncrease>
+              <PctUsed>0</PctUsed>
+              <TablespaceName>USERS</TablespaceName>
+            </Storage>
+            <IndexType>Normal</IndexType>
+            <Status>VALID</Status>
+            <Instances>1</Instances>
+            <Degree>1</Degree>
+            <Logging>YES</Logging>
+            <Reverse>False</Reverse>
+            <Unsorted>False</Unsorted>
+            <Local>False</Local>
+            <CompressState>Disabled</CompressState>
+            <Compress>0</Compress>
+            <Partitioned>False</Partitioned>
+            <Visible>True</Visible>
+            <Enable>True</Enable>
+            <IsSystemNamed>False</IsSystemNamed>
+          </Object>
+        </List>
+      </Object>
+      <Object tableType="Table">
+        <Name>BF</Name>
+        <IsSystem>False</IsSystem>
+        <List name="Columns">
+          <Object>
+            <Name>ID</Name>
+            <IsSystem>False</IsSystem>
+            <Comment />
+            <Type>
+              <Name>NUMBER</Name>
+              <Precision />
+              <Scale />
+              <Length>0</Length>
+              <Collation />
+              <CharUsed>Byte</CharUsed>
+            </Type>
+            <Default />
+            <Nullable>False</Nullable>
+            <IsUnique>False</IsUnique>
+            <IsPrimary>True</IsPrimary>
+            <DataTypeOwner />
+            <Reference>False</Reference>
+            <IsHidden>False</IsHidden>
+            <ColumnOrder>1</ColumnOrder>
+            <OldName />
+            <Collation />
+            <DefaultOnNull>False</DefaultOnNull>
+          </Object>
+          <Object>
+            <Name>BF</Name>
+            <IsSystem>False</IsSystem>
+            <Comment />
+            <Type>
+              <Name>BFILE</Name>
+              <Precision />
+              <Scale />
+              <Length>530</Length>
+              <Collation />
+              <CharUsed>Byte</CharUsed>
+            </Type>
+            <Default />
+            <Nullable>True</Nullable>
+            <IsUnique>False</IsUnique>
+            <IsPrimary>False</IsPrimary>
+            <DataTypeOwner />
+            <Reference>False</Reference>
+            <IsHidden>False</IsHidden>
+            <ColumnOrder>2</ColumnOrder>
+            <OldName />
+            <Collation />
+            <DefaultOnNull>False</DefaultOnNull>
+          </Object>
+        </List>
+        <Storage>
+          <Name />
+          <IsSystem>False</IsSystem>
+          <IsIndex>False</IsIndex>
+          <BufferPool>DEFAULT</BufferPool>
+          <FreeLists>1</FreeLists>
+          <FreeListGroups>1</FreeListGroups>
+          <InitialExtent>
+            <Value>64</Value>
+            <TwoPower>10</TwoPower>
+            <SizeType>K</SizeType>
+          </InitialExtent>
+          <IniTrans>1</IniTrans>
+          <MaxExtents>
+            <Value>2147483645</Value>
+            <TwoPower>0</TwoPower>
+            <SizeType>UNDEFINED</SizeType>
+          </MaxExtents>
+          <MaxTrans>255</MaxTrans>
+          <MinExtents>1</MinExtents>
+          <NextExtent>
+            <Value>1</Value>
+            <TwoPower>20</TwoPower>
+            <SizeType>M</SizeType>
+          </NextExtent>
+          <PctFree>10</PctFree>
+          <PctIncrease>50</PctIncrease>
+          <PctUsed>40</PctUsed>
+          <TablespaceName>USERS</TablespaceName>
+        </Storage>
+        <Compression>DISABLED</Compression>
+        <CompressForAllTag>False</CompressForAllTag>
+        <Degree>1</Degree>
+        <Instances>1</Instances>
+        <Locked>ENABLED</Locked>
+        <RowDependencies>DISABLED</RowDependencies>
+        <Logging>YES</Logging>
+        <Monitoring />
+        <Caching>N</Caching>
+        <Comment />
+        <Status>VALID</Status>
+        <BackedUp>N</BackedUp>
+        <ClusterName />
+        <RowMovement>DISABLED</RowMovement>
+        <TableMode>NORMAL</TableMode>
+        <UseOverflow>False</UseOverflow>
+        <Mapping>False</Mapping>
+        <Threshold>50</Threshold>
+        <IncludeColumn>not specified</IncludeColumn>
+        <ClusterOwner>AUTOTEST_DATAEDITOR</ClusterOwner>
+        <IsReadOnly>False</IsReadOnly>
+        <ResultCache>DEFAULT</ResultCache>
+        <FlashbackArchiveName />
+        <Partitioned>False</Partitioned>
+        <Editable>True</Editable>
+        <Temporary>False</Temporary>
+        <TemporarySession>False</TemporarySession>
+        <AttributeClustered>False</AttributeClustered>
+        <List name="Constraints">
+          <Object type="UniqueKey">
+            <Name>SYS_C00472623</Name>
+            <IsSystem>False</IsSystem>
+            <List name="Columns">
+              <Item>ID</Item>
+            </List>
+            <Unique>True</Unique>
+            <IsPrimary>True</IsPrimary>
+            <IndexOwner>AUTOTEST_DATAEDITOR</IndexOwner>
+            <IndexName>SYS_C00472623</IndexName>
+            <ConstraintStates>
+              <Enabled>True</Enabled>
+              <Deferrable>NOT DEFERRABLE</Deferrable>
+              <Deferred>IMMEDIATE</Deferred>
+              <Validated>True</Validated>
+              <Generated>GENERATED NAME</Generated>
+              <Bad>False</Bad>
+              <Rely>False</Rely>
+            </ConstraintStates>
+          </Object>
+        </List>
+        <List name="Indexes">
+          <Object type="Index">
+            <Name>SYS_C00472623</Name>
+            <IsSystem>False</IsSystem>
+            <List name="Columns">
+              <Item>ID</Item>
+            </List>
+            <List name="SortOrder">
+              <Item>Asc</Item>
+            </List>
+            <Unique>True</Unique>
+            <Storage>
+              <Name />
+              <IsSystem>False</IsSystem>
+              <IsIndex>True</IsIndex>
+              <BufferPool>DEFAULT</BufferPool>
+              <FreeLists>1</FreeLists>
+              <FreeListGroups>1</FreeListGroups>
+              <InitialExtent>
+                <Value>64</Value>
+                <TwoPower>10</TwoPower>
+                <SizeType>K</SizeType>
+              </InitialExtent>
+              <IniTrans>2</IniTrans>
+              <MaxExtents>
+                <Value>2147483645</Value>
+                <TwoPower>0</TwoPower>
+                <SizeType>UNDEFINED</SizeType>
+              </MaxExtents>
+              <MaxTrans>255</MaxTrans>
+              <MinExtents>1</MinExtents>
+              <NextExtent>
+                <Value>1</Value>
+                <TwoPower>20</TwoPower>
+                <SizeType>M</SizeType>
+              </NextExtent>
+              <PctFree>10</PctFree>
+              <PctIncrease>50</PctIncrease>
+              <PctUsed>0</PctUsed>
+              <TablespaceName>USERS</TablespaceName>
+            </Storage>
+            <IndexType>Normal</IndexType>
+            <Status>VALID</Status>
+            <Instances>1</Instances>
+            <Degree>1</Degree>
+            <Logging>YES</Logging>
+            <Reverse>False</Reverse>
+            <Unsorted>False</Unsorted>
+            <Local>False</Local>
+            <CompressState>Disabled</CompressState>
+            <Compress>0</Compress>
+            <Partitioned>False</Partitioned>
+            <Visible>True</Visible>
+            <Enable>True</Enable>
+            <IsSystemNamed>False</IsSystemNamed>
+          </Object>
+        </List>
+      </Object>
+      <Object tableType="Table">
+        <Name>CHECK_VERSION</Name>
+        <IsSystem>False</IsSystem>
+        <List name="Columns">
+          <Object>
+            <Name>VERSION_NUMBER</Name>
+            <IsSystem>False</IsSystem>
+            <Comment />
+            <Type>
+              <Name>NUMBER</Name>
+              <Precision />
+              <Scale>0</Scale>
+              <Length>0</Length>
+              <Collation />
+              <CharUsed>Byte</CharUsed>
+            </Type>
+            <Default />
+            <Nullable>True</Nullable>
+            <IsUnique>False</IsUnique>
+            <IsPrimary>False</IsPrimary>
+            <DataTypeOwner />
+            <Reference>False</Reference>
+            <IsHidden>False</IsHidden>
+            <ColumnOrder>1</ColumnOrder>
+            <OldName />
+            <Collation />
+            <DefaultOnNull>False</DefaultOnNull>
+          </Object>
+        </List>
+        <Storage>
+          <Name />
+          <IsSystem>False</IsSystem>
+          <IsIndex>False</IsIndex>
+          <BufferPool>DEFAULT</BufferPool>
+          <FreeLists>1</FreeLists>
+          <FreeListGroups>1</FreeListGroups>
+          <InitialExtent>
+            <Value>64</Value>
+            <TwoPower>10</TwoPower>
+            <SizeType>K</SizeType>
+          </InitialExtent>
+          <IniTrans>1</IniTrans>
+          <MaxExtents>
+            <Value>2147483645</Value>
+            <TwoPower>0</TwoPower>
+            <SizeType>UNDEFINED</SizeType>
+          </MaxExtents>
+          <MaxTrans>255</MaxTrans>
+          <MinExtents>1</MinExtents>
+          <NextExtent>
+            <Value>1</Value>
+            <TwoPower>20</TwoPower>
+            <SizeType>M</SizeType>
+          </NextExtent>
+          <PctFree>10</PctFree>
+          <PctIncrease>50</PctIncrease>
+          <PctUsed>40</PctUsed>
+          <TablespaceName>USERS</TablespaceName>
+        </Storage>
+        <Compression>DISABLED</Compression>
+        <CompressForAllTag>False</CompressForAllTag>
+        <Degree>1</Degree>
+        <Instances>1</Instances>
+        <Locked>ENABLED</Locked>
+        <RowDependencies>DISABLED</RowDependencies>
+        <Logging>YES</Logging>
+        <Monitoring />
+        <Caching>N</Caching>
+        <Comment />
+        <Status>VALID</Status>
+        <BackedUp>N</BackedUp>
+        <ClusterName />
+        <RowMovement>DISABLED</RowMovement>
+        <TableMode>NORMAL</TableMode>
+        <UseOverflow>False</UseOverflow>
+        <Mapping>False</Mapping>
+        <Threshold>50</Threshold>
+        <IncludeColumn>not specified</IncludeColumn>
+        <ClusterOwner>AUTOTEST_DATAEDITOR</ClusterOwner>
+        <IsReadOnly>False</IsReadOnly>
+        <ResultCache>DEFAULT</ResultCache>
+        <FlashbackArchiveName />
+        <Partitioned>False</Partitioned>
+        <Editable>True</Editable>
+        <Temporary>False</Temporary>
+        <TemporarySession>False</TemporarySession>
+        <AttributeClustered>False</AttributeClustered>
+      </Object>
+      <Object tableType="Table">
+        <Name>FILTERTEST</Name>
+        <IsSystem>False</IsSystem>
+        <List name="Columns">
+          <Object>
+            <Name>pk_int</Name>
+            <IsSystem>False</IsSystem>
+            <Comment />
+            <Type>
+              <Name>NUMBER</Name>
+              <Precision />
+              <Scale>0</Scale>
+              <Length>0</Length>
+              <Collation />
+              <CharUsed>Byte</CharUsed>
+            </Type>
+            <Default />
+            <Nullable>False</Nullable>
+            <IsUnique>False</IsUnique>
+            <IsPrimary>True</IsPrimary>
+            <DataTypeOwner />
+            <Reference>False</Reference>
+            <IsHidden>False</IsHidden>
+            <ColumnOrder>1</ColumnOrder>
+            <OldName />
+            <Collation />
+            <DefaultOnNull>False</DefaultOnNull>
+          </Object>
+          <Object>
+            <Name>bigint</Name>
+            <IsSystem>False</IsSystem>
+            <Comment />
+            <Type>
+              <Name>NUMBER</Name>
+              <Precision>22</Precision>
+              <Scale>0</Scale>
+              <Length>0</Length>
+              <Collation />
+              <CharUsed>Byte</CharUsed>
+            </Type>
+            <Default />
+            <Nullable>True</Nullable>
+            <IsUnique>False</IsUnique>
+            <IsPrimary>False</IsPrimary>
+            <DataTypeOwner />
+            <Reference>False</Reference>
+            <IsHidden>False</IsHidden>
+            <ColumnOrder>2</ColumnOrder>
+            <OldName />
+            <Collation />
+            <DefaultOnNull>False</DefaultOnNull>
+          </Object>
+          <Object>
+            <Name>dec</Name>
+            <IsSystem>False</IsSystem>
+            <Comment />
+            <Type>
+              <Name>NUMBER</Name>
+              <Precision>21</Precision>
+              <Scale>0</Scale>
+              <Length>0</Length>
+              <Collation />
+              <CharUsed>Byte</CharUsed>
+            </Type>
+            <Default />
+            <Nullable>True</Nullable>
+            <IsUnique>False</IsUnique>
+            <IsPrimary>False</IsPrimary>
+            <DataTypeOwner />
+            <Reference>False</Reference>
+            <IsHidden>False</IsHidden>
+            <ColumnOrder>3</ColumnOrder>
+            <OldName />
+            <Collation />
+            <DefaultOnNull>False</DefaultOnNull>
+          </Object>
+          <Object>
+            <Name>datetime</Name>
+            <IsSystem>False</IsSystem>
+            <Comment />
+            <Type>
+              <Name>DATE</Name>
+              <Precision />
+              <Scale />
+              <Length>7</Length>
+              <Collation />
+              <CharUsed>Byte</CharUsed>
+            </Type>
+            <Default />
+            <Nullable>True</Nullable>
+            <IsUnique>False</IsUnique>
+            <IsPrimary>False</IsPrimary>
+            <DataTypeOwner />
+            <Reference>False</Reference>
+            <IsHidden>False</IsHidden>
+            <ColumnOrder>4</ColumnOrder>
+            <OldName />
+            <Collation />
+            <DefaultOnNull>False</DefaultOnNull>
+          </Object>
+          <Object>
+            <Name>varchar(50)</Name>
+            <IsSystem>False</IsSystem>
+            <Comment />
+            <Type>
+              <Name>VARCHAR2</Name>
+              <Precision />
+              <Scale />
+              <Length>50</Length>
+              <Collation>USING_NLS_COMP</Collation>
+              <CharUsed>Byte</CharUsed>
+            </Type>
+            <Default />
+            <Nullable>True</Nullable>
+            <IsUnique>False</IsUnique>
+            <IsPrimary>False</IsPrimary>
+            <DataTypeOwner />
+            <Reference>False</Reference>
+            <IsHidden>False</IsHidden>
+            <ColumnOrder>5</ColumnOrder>
+            <OldName />
+            <Collation>USING_NLS_COMP</Collation>
+            <DefaultOnNull>False</DefaultOnNull>
+          </Object>
+        </List>
+        <Storage>
+          <Name />
+          <IsSystem>False</IsSystem>
+          <IsIndex>False</IsIndex>
+          <BufferPool>DEFAULT</BufferPool>
+          <FreeLists>1</FreeLists>
+          <FreeListGroups>1</FreeListGroups>
+          <InitialExtent>
+            <Value>64</Value>
+            <TwoPower>10</TwoPower>
+            <SizeType>K</SizeType>
+          </InitialExtent>
+          <IniTrans>1</IniTrans>
+          <MaxExtents>
+            <Value>2147483645</Value>
+            <TwoPower>0</TwoPower>
+            <SizeType>UNDEFINED</SizeType>
+          </MaxExtents>
+          <MaxTrans>255</MaxTrans>
+          <MinExtents>1</MinExtents>
+          <NextExtent>
+            <Value>1</Value>
+            <TwoPower>20</TwoPower>
+            <SizeType>M</SizeType>
+          </NextExtent>
+          <PctFree>10</PctFree>
+          <PctIncrease>50</PctIncrease>
+          <PctUsed>40</PctUsed>
+          <TablespaceName>USERS</TablespaceName>
+        </Storage>
+        <Compression>DISABLED</Compression>
+        <CompressForAllTag>False</CompressForAllTag>
+        <Degree>1</Degree>
+        <Instances>1</Instances>
+        <Locked>ENABLED</Locked>
+        <RowDependencies>DISABLED</RowDependencies>
+        <Logging>YES</Logging>
+        <Monitoring />
+        <Caching>N</Caching>
+        <Comment />
+        <Status>VALID</Status>
+        <BackedUp>N</BackedUp>
+        <ClusterName />
+        <RowMovement>DISABLED</RowMovement>
+        <TableMode>NORMAL</TableMode>
+        <UseOverflow>False</UseOverflow>
+        <Mapping>False</Mapping>
+        <Threshold>50</Threshold>
+        <IncludeColumn>not specified</IncludeColumn>
+        <ClusterOwner>AUTOTEST_DATAEDITOR</ClusterOwner>
+        <IsReadOnly>False</IsReadOnly>
+        <ResultCache>DEFAULT</ResultCache>
+        <FlashbackArchiveName />
+        <Partitioned>False</Partitioned>
+        <Editable>True</Editable>
+        <Temporary>False</Temporary>
+        <TemporarySession>False</TemporarySession>
+        <AttributeClustered>False</AttributeClustered>
+        <List name="Constraints">
+          <Object type="CheckConstraint">
+            <Name>SYS_C0029099</Name>
+            <IsSystem>False</IsSystem>
+            <Condition>"pk_int" IS NOT NULL</Condition>
+            <IsSystemGenerated>False</IsSystemGenerated>
+            <IsNotCreated>False</IsNotCreated>
+            <ConstraintStates>
+              <Enabled>True</Enabled>
+              <Deferrable>NOT DEFERRABLE</Deferrable>
+              <Deferred>IMMEDIATE</Deferred>
+              <Validated>True</Validated>
+              <Generated>GENERATED NAME</Generated>
+              <Bad>False</Bad>
+              <Rely>False</Rely>
+            </ConstraintStates>
+          </Object>
+          <Object type="UniqueKey">
+            <Name>SYS_C0029100</Name>
+            <IsSystem>False</IsSystem>
+            <List name="Columns">
+              <Item>pk_int</Item>
+            </List>
+            <Unique>True</Unique>
+            <IsPrimary>True</IsPrimary>
+            <IndexOwner>AUTOTEST_DATAEDITOR</IndexOwner>
+            <IndexName>SYS_C0029100</IndexName>
+            <ConstraintStates>
+              <Enabled>True</Enabled>
+              <Deferrable>NOT DEFERRABLE</Deferrable>
+              <Deferred>IMMEDIATE</Deferred>
+              <Validated>True</Validated>
+              <Generated>GENERATED NAME</Generated>
+              <Bad>False</Bad>
+              <Rely>False</Rely>
+            </ConstraintStates>
+          </Object>
+        </List>
+        <List name="Indexes">
+          <Object type="Index">
+            <Name>SYS_C0029100</Name>
+            <IsSystem>False</IsSystem>
+            <List name="Columns">
+              <Item>pk_int</Item>
+            </List>
+            <List name="SortOrder">
+              <Item>Asc</Item>
+            </List>
+            <Unique>True</Unique>
+            <Storage>
+              <Name />
+              <IsSystem>False</IsSystem>
+              <IsIndex>True</IsIndex>
+              <BufferPool>DEFAULT</BufferPool>
+              <FreeLists>1</FreeLists>
+              <FreeListGroups>1</FreeListGroups>
+              <InitialExtent>
+                <Value>64</Value>
+                <TwoPower>10</TwoPower>
+                <SizeType>K</SizeType>
+              </InitialExtent>
+              <IniTrans>2</IniTrans>
+              <MaxExtents>
+                <Value>2147483645</Value>
+                <TwoPower>0</TwoPower>
+                <SizeType>UNDEFINED</SizeType>
+              </MaxExtents>
+              <MaxTrans>255</MaxTrans>
+              <MinExtents>1</MinExtents>
+              <NextExtent>
+                <Value>1</Value>
+                <TwoPower>20</TwoPower>
+                <SizeType>M</SizeType>
+              </NextExtent>
+              <PctFree>10</PctFree>
+              <PctIncrease>50</PctIncrease>
+              <PctUsed>0</PctUsed>
+              <TablespaceName>USERS</TablespaceName>
+            </Storage>
+            <IndexType>Normal</IndexType>
+            <Status>VALID</Status>
+            <Instances>1</Instances>
+            <Degree>1</Degree>
+            <Logging>YES</Logging>
+            <Reverse>False</Reverse>
+            <Unsorted>False</Unsorted>
+            <Local>False</Local>
+            <CompressState>Disabled</CompressState>
+            <Compress>0</Compress>
+            <Partitioned>False</Partitioned>
+            <Visible>True</Visible>
+            <Enable>True</Enable>
+            <IsSystemNamed>True</IsSystemNamed>
+          </Object>
+        </List>
+      </Object>
+      <Object tableType="TableTypeObject">
+        <Name>OBJECTTABLE</Name>
+        <IsSystem>False</IsSystem>
+        <List name="Columns">
+          <Object>
+            <Name>FIELD1</Name>
+            <IsSystem>False</IsSystem>
+            <Comment />
+            <Type>
+              <Name>NUMBER</Name>
+              <Precision>10</Precision>
+              <Scale>0</Scale>
+              <Length>0</Length>
+              <Collation />
+              <CharUsed>Byte</CharUsed>
+            </Type>
+            <Default />
+            <Nullable>True</Nullable>
+            <IsUnique>False</IsUnique>
+            <IsPrimary>False</IsPrimary>
+            <DataTypeOwner />
+            <Reference>False</Reference>
+            <IsHidden>False</IsHidden>
+            <ColumnOrder>1</ColumnOrder>
+            <OldName />
+            <Collation />
+            <DefaultOnNull>False</DefaultOnNull>
+          </Object>
+          <Object>
+            <Name>FIELD2</Name>
+            <IsSystem>False</IsSystem>
+            <Comment />
+            <Type>
+              <Name>VARCHAR2</Name>
+              <Precision />
+              <Scale />
+              <Length>20</Length>
+              <Collation>USING_NLS_COMP</Collation>
+              <CharUsed>Byte</CharUsed>
+            </Type>
+            <Default />
+            <Nullable>True</Nullable>
+            <IsUnique>False</IsUnique>
+            <IsPrimary>False</IsPrimary>
+            <DataTypeOwner />
+            <Reference>False</Reference>
+            <IsHidden>False</IsHidden>
+            <ColumnOrder>2</ColumnOrder>
+            <OldName />
+            <Collation>USING_NLS_COMP</Collation>
+            <DefaultOnNull>False</DefaultOnNull>
+          </Object>
+        </List>
+        <List name="HiddenColumns">
+          <Object>
+            <Name>SYS_NC_OID$</Name>
+            <IsSystem>True</IsSystem>
+            <Comment />
+            <Type>
+              <Name>RAW</Name>
+              <Precision />
+              <Scale />
+              <Length>16</Length>
+              <Collation />
+              <CharUsed>Byte</CharUsed>
+            </Type>
+            <Default>SYS_OP_GUID()</Default>
+            <Nullable>True</Nullable>
+            <IsUnique>False</IsUnique>
+            <IsPrimary>False</IsPrimary>
+            <DataTypeOwner />
+            <Reference>False</Reference>
+            <IsHidden>True</IsHidden>
+            <ColumnOrder>0</ColumnOrder>
+            <OldName />
+            <Collation />
+            <DefaultOnNull>False</DefaultOnNull>
+          </Object>
+          <Object>
+            <Name>SYS_NC_ROWINFO$</Name>
+            <IsSystem>True</IsSystem>
+            <Comment />
+            <Type>
+              <Name>OT1</Name>
+              <Precision />
+              <Scale />
+              <Length>1</Length>
+              <Collation />
+              <CharUsed>Byte</CharUsed>
+            </Type>
+            <Default />
+            <Nullable>True</Nullable>
+            <IsUnique>False</IsUnique>
+            <IsPrimary>False</IsPrimary>
+            <IsComputed>True</IsComputed>
+            <DataTypeOwner>AUTOTEST_DATAEDITOR</DataTypeOwner>
+            <Reference>False</Reference>
+            <IsHidden>True</IsHidden>
+            <ColumnOrder>0</ColumnOrder>
+            <OldName />
+            <Collation />
+            <DefaultOnNull>False</DefaultOnNull>
+          </Object>
+        </List>
+        <Storage>
+          <Name />
+          <IsSystem>False</IsSystem>
+          <IsIndex>False</IsIndex>
+          <BufferPool>DEFAULT</BufferPool>
+          <FreeLists>1</FreeLists>
+          <FreeListGroups>1</FreeListGroups>
+          <InitialExtent>
+            <Value>64</Value>
+            <TwoPower>10</TwoPower>
+            <SizeType>K</SizeType>
+          </InitialExtent>
+          <IniTrans>1</IniTrans>
+          <MaxExtents>
+            <Value>2147483645</Value>
+            <TwoPower>0</TwoPower>
+            <SizeType>UNDEFINED</SizeType>
+          </MaxExtents>
+          <MaxTrans>255</MaxTrans>
+          <MinExtents>1</MinExtents>
+          <NextExtent>
+            <Value>1</Value>
+            <TwoPower>20</TwoPower>
+            <SizeType>M</SizeType>
+          </NextExtent>
+          <PctFree>10</PctFree>
+          <PctIncrease>50</PctIncrease>
+          <PctUsed>40</PctUsed>
+          <TablespaceName>USERS</TablespaceName>
+        </Storage>
+        <Compression>DISABLED</Compression>
+        <CompressForAllTag>False</CompressForAllTag>
+        <Degree>1</Degree>
+        <Instances>1</Instances>
+        <Locked>ENABLED</Locked>
+        <RowDependencies>DISABLED</RowDependencies>
+        <Logging>YES</Logging>
+        <Monitoring />
+        <Caching>N</Caching>
+        <Comment />
+        <Status>VALID</Status>
+        <BackedUp>N</BackedUp>
+        <ClusterName />
+        <RowMovement>DISABLED</RowMovement>
+        <TableMode>NORMAL</TableMode>
+        <UseOverflow>False</UseOverflow>
+        <Mapping>False</Mapping>
+        <Threshold>50</Threshold>
+        <IncludeColumn>not specified</IncludeColumn>
+        <ClusterOwner>AUTOTEST_DATAEDITOR</ClusterOwner>
+        <IsReadOnly>False</IsReadOnly>
+        <ResultCache>DEFAULT</ResultCache>
+        <FlashbackArchiveName />
+        <Partitioned>False</Partitioned>
+        <Editable>True</Editable>
+        <Temporary>False</Temporary>
+        <TemporarySession>False</TemporarySession>
+        <AttributeClustered>False</AttributeClustered>
+        <List name="Constraints">
+          <Object type="UniqueKey">
+            <Name>SYS_C0029090</Name>
+            <IsSystem>False</IsSystem>
+            <List name="Columns">
+              <Item>SYS_NC_OID$</Item>
+            </List>
+            <Unique>True</Unique>
+            <IsPrimary>False</IsPrimary>
+            <IndexOwner>AUTOTEST_DATAEDITOR</IndexOwner>
+            <IndexName>SYS_C0029090</IndexName>
+            <ConstraintStates>
+              <Enabled>True</Enabled>
+              <Deferrable>NOT DEFERRABLE</Deferrable>
+              <Deferred>IMMEDIATE</Deferred>
+              <Validated>True</Validated>
+              <Generated>GENERATED NAME</Generated>
+              <Bad>False</Bad>
+              <Rely>True</Rely>
+            </ConstraintStates>
+          </Object>
+        </List>
+        <List name="Indexes">
+          <Object type="Index">
+            <Name>SYS_C0029090</Name>
+            <IsSystem>False</IsSystem>
+            <List name="Columns">
+              <Item>SYS_NC_OID$</Item>
+            </List>
+            <List name="SortOrder">
+              <Item>Asc</Item>
+            </List>
+            <Unique>True</Unique>
+            <Storage>
+              <Name />
+              <IsSystem>False</IsSystem>
+              <IsIndex>True</IsIndex>
+              <BufferPool>DEFAULT</BufferPool>
+              <FreeLists>1</FreeLists>
+              <FreeListGroups>1</FreeListGroups>
+              <InitialExtent>
+                <Value>64</Value>
+                <TwoPower>10</TwoPower>
+                <SizeType>K</SizeType>
+              </InitialExtent>
+              <IniTrans>2</IniTrans>
+              <MaxExtents>
+                <Value>2147483645</Value>
+                <TwoPower>0</TwoPower>
+                <SizeType>UNDEFINED</SizeType>
+              </MaxExtents>
+              <MaxTrans>255</MaxTrans>
+              <MinExtents>1</MinExtents>
+              <NextExtent>
+                <Value>1</Value>
+                <TwoPower>20</TwoPower>
+                <SizeType>M</SizeType>
+              </NextExtent>
+              <PctFree>10</PctFree>
+              <PctIncrease>50</PctIncrease>
+              <PctUsed>0</PctUsed>
+              <TablespaceName>USERS</TablespaceName>
+            </Storage>
+            <IndexType>Normal</IndexType>
+            <Status>VALID</Status>
+            <Instances>1</Instances>
+            <Degree>1</Degree>
+            <Logging>YES</Logging>
+            <Reverse>False</Reverse>
+            <Unsorted>False</Unsorted>
+            <Local>False</Local>
+            <CompressState>Disabled</CompressState>
+            <Compress>0</Compress>
+            <Partitioned>False</Partitioned>
+            <Visible>True</Visible>
+            <Enable>True</Enable>
+            <IsSystemNamed>True</IsSystemNamed>
+          </Object>
+        </List>
+        <ObjectName>OT1</ObjectName>
+        <ObjectOwner>AUTOTEST_DATAEDITOR</ObjectOwner>
+        <IsPrimary>False</IsPrimary>
+      </Object>
+      <Object tableType="Table">
+        <Name>OT</Name>
+        <IsSystem>False</IsSystem>
+        <List name="Columns">
+          <Object>
+            <Name>ID</Name>
+            <IsSystem>False</IsSystem>
+            <Comment />
+            <Type>
+              <Name>NUMBER</Name>
+              <Precision />
+              <Scale />
+              <Length>0</Length>
+              <Collation />
+              <CharUsed>Byte</CharUsed>
+            </Type>
+            <Default />
+            <Nullable>False</Nullable>
+            <IsUnique>False</IsUnique>
+            <IsPrimary>True</IsPrimary>
+            <DataTypeOwner />
+            <Reference>False</Reference>
+            <IsHidden>False</IsHidden>
+            <ColumnOrder>1</ColumnOrder>
+            <OldName />
+            <Collation />
+            <DefaultOnNull>False</DefaultOnNull>
+          </Object>
+          <Object>
+            <Name>OT</Name>
+            <IsSystem>False</IsSystem>
+            <Comment />
+            <Type>
+              <Name>OT1</Name>
+              <Precision />
+              <Scale />
+              <Length>1</Length>
+              <Collation />
+              <CharUsed>Byte</CharUsed>
+            </Type>
+            <Default />
+            <Nullable>True</Nullable>
+            <IsUnique>False</IsUnique>
+            <IsPrimary>False</IsPrimary>
+            <DataTypeOwner>AUTOTEST_DATAEDITOR</DataTypeOwner>
+            <Reference>False</Reference>
+            <IsHidden>False</IsHidden>
+            <ColumnOrder>2</ColumnOrder>
+            <OldName />
+            <Collation />
+            <DefaultOnNull>False</DefaultOnNull>
+          </Object>
+        </List>
+        <List name="HiddenColumns">
+          <Object>
+            <Name>SYS_NC00003$</Name>
+            <IsSystem>True</IsSystem>
+            <Comment />
+            <Type>
+              <Name>NUMBER</Name>
+              <Precision>10</Precision>
+              <Scale>0</Scale>
+              <Length>0</Length>
+              <Collation />
+              <CharUsed>Byte</CharUsed>
+            </Type>
+            <Default />
+            <Nullable>True</Nullable>
+            <IsUnique>False</IsUnique>
+            <IsPrimary>False</IsPrimary>
+            <DataTypeOwner />
+            <Reference>False</Reference>
+            <IsHidden>True</IsHidden>
+            <ColumnOrder>2</ColumnOrder>
+            <OldName />
+            <Collation />
+            <DefaultOnNull>False</DefaultOnNull>
+          </Object>
+          <Object>
+            <Name>SYS_NC00004$</Name>
+            <IsSystem>True</IsSystem>
+            <Comment />
+            <Type>
+              <Name>VARCHAR2</Name>
+              <Precision />
+              <Scale />
+              <Length>20</Length>
+              <Collation>USING_NLS_COMP</Collation>
+              <CharUsed>Byte</CharUsed>
+            </Type>
+            <Default />
+            <Nullable>True</Nullable>
+            <IsUnique>False</IsUnique>
+            <IsPrimary>False</IsPrimary>
+            <DataTypeOwner />
+            <Reference>False</Reference>
+            <IsHidden>True</IsHidden>
+            <ColumnOrder>2</ColumnOrder>
+            <OldName />
+            <Collation>USING_NLS_COMP</Collation>
+            <DefaultOnNull>False</DefaultOnNull>
+          </Object>
+        </List>
+        <Storage>
+          <Name />
+          <IsSystem>False</IsSystem>
+          <IsIndex>False</IsIndex>
+          <BufferPool>DEFAULT</BufferPool>
+          <FreeLists>1</FreeLists>
+          <FreeListGroups>1</FreeListGroups>
+          <InitialExtent>
+            <Value>64</Value>
+            <TwoPower>10</TwoPower>
+            <SizeType>K</SizeType>
+          </InitialExtent>
+          <IniTrans>1</IniTrans>
+          <MaxExtents>
+            <Value>2147483645</Value>
+            <TwoPower>0</TwoPower>
+            <SizeType>UNDEFINED</SizeType>
+          </MaxExtents>
+          <MaxTrans>255</MaxTrans>
+          <MinExtents>1</MinExtents>
+          <NextExtent>
+            <Value>1</Value>
+            <TwoPower>20</TwoPower>
+            <SizeType>M</SizeType>
+          </NextExtent>
+          <PctFree>10</PctFree>
+          <PctIncrease>50</PctIncrease>
+          <PctUsed>40</PctUsed>
+          <TablespaceName>USERS</TablespaceName>
+        </Storage>
+        <Compression>DISABLED</Compression>
+        <CompressForAllTag>False</CompressForAllTag>
+        <Degree>1</Degree>
+        <Instances>1</Instances>
+        <Locked>ENABLED</Locked>
+        <RowDependencies>DISABLED</RowDependencies>
+        <Logging>YES</Logging>
+        <Monitoring />
+        <Caching>N</Caching>
+        <Comment />
+        <Status>VALID</Status>
+        <BackedUp>N</BackedUp>
+        <ClusterName />
+        <RowMovement>DISABLED</RowMovement>
+        <TableMode>NORMAL</TableMode>
+        <UseOverflow>False</UseOverflow>
+        <Mapping>False</Mapping>
+        <Threshold>50</Threshold>
+        <IncludeColumn>not specified</IncludeColumn>
+        <ClusterOwner>AUTOTEST_DATAEDITOR</ClusterOwner>
+        <IsReadOnly>False</IsReadOnly>
+        <ResultCache>DEFAULT</ResultCache>
+        <FlashbackArchiveName />
+        <Partitioned>False</Partitioned>
+        <Editable>True</Editable>
+        <Temporary>False</Temporary>
+        <TemporarySession>False</TemporarySession>
+        <AttributeClustered>False</AttributeClustered>
+        <List name="Constraints">
+          <Object type="UniqueKey">
+            <Name>SYS_C00472658</Name>
+            <IsSystem>False</IsSystem>
+            <List name="Columns">
+              <Item>ID</Item>
+            </List>
+            <Unique>True</Unique>
+            <IsPrimary>True</IsPrimary>
+            <IndexOwner>AUTOTEST_DATAEDITOR</IndexOwner>
+            <IndexName>SYS_C00472658</IndexName>
+            <ConstraintStates>
+              <Enabled>True</Enabled>
+              <Deferrable>NOT DEFERRABLE</Deferrable>
+              <Deferred>IMMEDIATE</Deferred>
+              <Validated>True</Validated>
+              <Generated>GENERATED NAME</Generated>
+              <Bad>False</Bad>
+              <Rely>False</Rely>
+            </ConstraintStates>
+          </Object>
+        </List>
+        <List name="Indexes">
+          <Object type="Index">
+            <Name>SYS_C00472658</Name>
+            <IsSystem>False</IsSystem>
+            <List name="Columns">
+              <Item>ID</Item>
+            </List>
+            <List name="SortOrder">
+              <Item>Asc</Item>
+            </List>
+            <Unique>True</Unique>
+            <Storage>
+              <Name />
+              <IsSystem>False</IsSystem>
+              <IsIndex>True</IsIndex>
+              <BufferPool>DEFAULT</BufferPool>
+              <FreeLists>1</FreeLists>
+              <FreeListGroups>1</FreeListGroups>
+              <InitialExtent>
+                <Value>64</Value>
+                <TwoPower>10</TwoPower>
+                <SizeType>K</SizeType>
+              </InitialExtent>
+              <IniTrans>2</IniTrans>
+              <MaxExtents>
+                <Value>2147483645</Value>
+                <TwoPower>0</TwoPower>
+                <SizeType>UNDEFINED</SizeType>
+              </MaxExtents>
+              <MaxTrans>255</MaxTrans>
+              <MinExtents>1</MinExtents>
+              <NextExtent>
+                <Value>1</Value>
+                <TwoPower>20</TwoPower>
+                <SizeType>M</SizeType>
+              </NextExtent>
+              <PctFree>10</PctFree>
+              <PctIncrease>50</PctIncrease>
+              <PctUsed>0</PctUsed>
+              <TablespaceName>USERS</TablespaceName>
+            </Storage>
+            <IndexType>Normal</IndexType>
+            <Status>VALID</Status>
+            <Instances>1</Instances>
+            <Degree>1</Degree>
+            <Logging>YES</Logging>
+            <Reverse>False</Reverse>
+            <Unsorted>False</Unsorted>
+            <Local>False</Local>
+            <CompressState>Disabled</CompressState>
+            <Compress>0</Compress>
+            <Partitioned>False</Partitioned>
+            <Visible>True</Visible>
+            <Enable>True</Enable>
+            <IsSystemNamed>False</IsSystemNamed>
+          </Object>
+        </List>
+      </Object>
+      <Object tableType="Table">
+        <Name>PAGEMODE</Name>
+        <IsSystem>False</IsSystem>
+        <List name="Columns">
+          <Object>
+            <Name>pk_int</Name>
+            <IsSystem>False</IsSystem>
+            <Comment />
+            <Type>
+              <Name>NUMBER</Name>
+              <Precision />
+              <Scale>0</Scale>
+              <Length>0</Length>
+              <Collation />
+              <CharUsed>Byte</CharUsed>
+            </Type>
+            <Default />
+            <Nullable>False</Nullable>
+            <IsUnique>False</IsUnique>
+            <IsPrimary>True</IsPrimary>
+            <DataTypeOwner />
+            <Reference>False</Reference>
+            <IsHidden>False</IsHidden>
+            <ColumnOrder>1</ColumnOrder>
+            <OldName />
+            <Collation />
+            <DefaultOnNull>False</DefaultOnNull>
+          </Object>
+          <Object>
+            <Name>txt</Name>
+            <IsSystem>False</IsSystem>
+            <Comment />
+            <Type>
+              <Name>NVARCHAR2</Name>
+              <Precision />
+              <Scale />
+              <Length>50</Length>
+              <Collation>USING_NLS_COMP</Collation>
+              <CharUsed>Char</CharUsed>
+            </Type>
+            <Default />
+            <Nullable>True</Nullable>
+            <IsUnique>False</IsUnique>
+            <IsPrimary>False</IsPrimary>
+            <DataTypeOwner />
+            <Reference>False</Reference>
+            <IsHidden>False</IsHidden>
+            <ColumnOrder>2</ColumnOrder>
+            <OldName />
+            <Collation>USING_NLS_COMP</Collation>
+            <DefaultOnNull>False</DefaultOnNull>
+          </Object>
+        </List>
+        <Storage>
+          <Name />
+          <IsSystem>False</IsSystem>
+          <IsIndex>False</IsIndex>
+          <BufferPool>DEFAULT</BufferPool>
+          <FreeLists>1</FreeLists>
+          <FreeListGroups>1</FreeListGroups>
+          <InitialExtent>
+            <Value>64</Value>
+            <TwoPower>10</TwoPower>
+            <SizeType>K</SizeType>
+          </InitialExtent>
+          <IniTrans>1</IniTrans>
+          <MaxExtents>
+            <Value>2147483645</Value>
+            <TwoPower>0</TwoPower>
+            <SizeType>UNDEFINED</SizeType>
+          </MaxExtents>
+          <MaxTrans>255</MaxTrans>
+          <MinExtents>1</MinExtents>
+          <NextExtent>
+            <Value>1</Value>
+            <TwoPower>20</TwoPower>
+            <SizeType>M</SizeType>
+          </NextExtent>
+          <PctFree>10</PctFree>
+          <PctIncrease>50</PctIncrease>
+          <PctUsed>40</PctUsed>
+          <TablespaceName>USERS</TablespaceName>
+        </Storage>
+        <Compression>DISABLED</Compression>
+        <CompressForAllTag>False</CompressForAllTag>
+        <Degree>1</Degree>
+        <Instances>1</Instances>
+        <Locked>ENABLED</Locked>
+        <RowDependencies>DISABLED</RowDependencies>
+        <Logging>YES</Logging>
+        <Monitoring />
+        <Caching>N</Caching>
+        <Comment />
+        <Status>VALID</Status>
+        <BackedUp>N</BackedUp>
+        <ClusterName />
+        <RowMovement>DISABLED</RowMovement>
+        <TableMode>NORMAL</TableMode>
+        <UseOverflow>False</UseOverflow>
+        <Mapping>False</Mapping>
+        <Threshold>50</Threshold>
+        <IncludeColumn>not specified</IncludeColumn>
+        <ClusterOwner>AUTOTEST_DATAEDITOR</ClusterOwner>
+        <IsReadOnly>False</IsReadOnly>
+        <ResultCache>DEFAULT</ResultCache>
+        <FlashbackArchiveName />
+        <Partitioned>False</Partitioned>
+        <Editable>True</Editable>
+        <Temporary>False</Temporary>
+        <TemporarySession>False</TemporarySession>
+        <AttributeClustered>False</AttributeClustered>
+        <List name="Constraints">
+          <Object type="CheckConstraint">
+            <Name>SYS_C0029097</Name>
+            <IsSystem>False</IsSystem>
+            <Condition>"pk_int" IS NOT NULL</Condition>
+            <IsSystemGenerated>False</IsSystemGenerated>
+            <IsNotCreated>False</IsNotCreated>
+            <ConstraintStates>
+              <Enabled>True</Enabled>
+              <Deferrable>NOT DEFERRABLE</Deferrable>
+              <Deferred>IMMEDIATE</Deferred>
+              <Validated>True</Validated>
+              <Generated>GENERATED NAME</Generated>
+              <Bad>False</Bad>
+              <Rely>False</Rely>
+            </ConstraintStates>
+          </Object>
+          <Object type="UniqueKey">
+            <Name>SYS_C0029098</Name>
+            <IsSystem>False</IsSystem>
+            <List name="Columns">
+              <Item>pk_int</Item>
+            </List>
+            <Unique>True</Unique>
+            <IsPrimary>True</IsPrimary>
+            <IndexOwner>AUTOTEST_DATAEDITOR</IndexOwner>
+            <IndexName>SYS_C0029098</IndexName>
+            <ConstraintStates>
+              <Enabled>True</Enabled>
+              <Deferrable>NOT DEFERRABLE</Deferrable>
+              <Deferred>IMMEDIATE</Deferred>
+              <Validated>True</Validated>
+              <Generated>GENERATED NAME</Generated>
+              <Bad>False</Bad>
+              <Rely>False</Rely>
+            </ConstraintStates>
+          </Object>
+        </List>
+        <List name="Indexes">
+          <Object type="Index">
+            <Name>SYS_C0029098</Name>
+            <IsSystem>False</IsSystem>
+            <List name="Columns">
+              <Item>pk_int</Item>
+            </List>
+            <List name="SortOrder">
+              <Item>Asc</Item>
+            </List>
+            <Unique>True</Unique>
+            <Storage>
+              <Name />
+              <IsSystem>False</IsSystem>
+              <IsIndex>True</IsIndex>
+              <BufferPool>DEFAULT</BufferPool>
+              <FreeLists>1</FreeLists>
+              <FreeListGroups>1</FreeListGroups>
+              <InitialExtent>
+                <Value>64</Value>
+                <TwoPower>10</TwoPower>
+                <SizeType>K</SizeType>
+              </InitialExtent>
+              <IniTrans>2</IniTrans>
+              <MaxExtents>
+                <Value>2147483645</Value>
+                <TwoPower>0</TwoPower>
+                <SizeType>UNDEFINED</SizeType>
+              </MaxExtents>
+              <MaxTrans>255</MaxTrans>
+              <MinExtents>1</MinExtents>
+              <NextExtent>
+                <Value>1</Value>
+                <TwoPower>20</TwoPower>
+                <SizeType>M</SizeType>
+              </NextExtent>
+              <PctFree>10</PctFree>
+              <PctIncrease>50</PctIncrease>
+              <PctUsed>0</PctUsed>
+              <TablespaceName>USERS</TablespaceName>
+            </Storage>
+            <IndexType>Normal</IndexType>
+            <Status>VALID</Status>
+            <Instances>1</Instances>
+            <Degree>1</Degree>
+            <Logging>YES</Logging>
+            <Reverse>False</Reverse>
+            <Unsorted>False</Unsorted>
+            <Local>False</Local>
+            <CompressState>Disabled</CompressState>
+            <Compress>0</Compress>
+            <Partitioned>False</Partitioned>
+            <Visible>True</Visible>
+            <Enable>True</Enable>
+            <IsSystemNamed>True</IsSystemNamed>
+          </Object>
+        </List>
+      </Object>
+      <Object tableType="Table">
+        <Name>SERVERSIDESORT</Name>
+        <IsSystem>False</IsSystem>
+        <List name="Columns">
+          <Object>
+            <Name>pk_int</Name>
+            <IsSystem>False</IsSystem>
+            <Comment />
+            <Type>
+              <Name>NUMBER</Name>
+              <Precision />
+              <Scale>0</Scale>
+              <Length>0</Length>
+              <Collation />
+              <CharUsed>Byte</CharUsed>
+            </Type>
+            <Default />
+            <Nullable>False</Nullable>
+            <IsUnique>False</IsUnique>
+            <IsPrimary>True</IsPrimary>
+            <DataTypeOwner />
+            <Reference>False</Reference>
+            <IsHidden>False</IsHidden>
+            <ColumnOrder>1</ColumnOrder>
+            <OldName />
+            <Collation />
+            <DefaultOnNull>False</DefaultOnNull>
+          </Object>
+          <Object>
+            <Name>bigint</Name>
+            <IsSystem>False</IsSystem>
+            <Comment />
+            <Type>
+              <Name>NUMBER</Name>
+              <Precision>20</Precision>
+              <Scale>0</Scale>
+              <Length>0</Length>
+              <Collation />
+              <CharUsed>Byte</CharUsed>
+            </Type>
+            <Default />
+            <Nullable>True</Nullable>
+            <IsUnique>False</IsUnique>
+            <IsPrimary>False</IsPrimary>
+            <DataTypeOwner />
+            <Reference>False</Reference>
+            <IsHidden>False</IsHidden>
+            <ColumnOrder>2</ColumnOrder>
+            <OldName />
+            <Collation />
+            <DefaultOnNull>False</DefaultOnNull>
+          </Object>
+          <Object>
+            <Name>smallint</Name>
+            <IsSystem>False</IsSystem>
+            <Comment />
+            <Type>
+              <Name>NUMBER</Name>
+              <Precision />
+              <Scale>0</Scale>
+              <Length>0</Length>
+              <Collation />
+              <CharUsed>Byte</CharUsed>
+            </Type>
+            <Default />
+            <Nullable>True</Nullable>
+            <IsUnique>False</IsUnique>
+            <IsPrimary>False</IsPrimary>
+            <DataTypeOwner />
+            <Reference>False</Reference>
+            <IsHidden>False</IsHidden>
+            <ColumnOrder>3</ColumnOrder>
+            <OldName />
+            <Collation />
+            <DefaultOnNull>False</DefaultOnNull>
+          </Object>
+          <Object>
+            <Name>tinyint</Name>
+            <IsSystem>False</IsSystem>
+            <Comment />
+            <Type>
+              <Name>NUMBER</Name>
+              <Precision>6</Precision>
+              <Scale>0</Scale>
+              <Length>0</Length>
+              <Collation />
+              <CharUsed>Byte</CharUsed>
+            </Type>
+            <Default />
+            <Nullable>True</Nullable>
+            <IsUnique>False</IsUnique>
+            <IsPrimary>False</IsPrimary>
+            <DataTypeOwner />
+            <Reference>False</Reference>
+            <IsHidden>False</IsHidden>
+            <ColumnOrder>4</ColumnOrder>
+            <OldName />
+            <Collation />
+            <DefaultOnNull>False</DefaultOnNull>
+          </Object>
+          <Object>
+            <Name>dec</Name>
+            <IsSystem>False</IsSystem>
+            <Comment />
+            <Type>
+              <Name>NUMBER</Name>
+              <Precision>18</Precision>
+              <Scale>0</Scale>
+              <Length>0</Length>
+              <Collation />
+              <CharUsed>Byte</CharUsed>
+            </Type>
+            <Default />
+            <Nullable>True</Nullable>
+            <IsUnique>False</IsUnique>
+            <IsPrimary>False</IsPrimary>
+            <DataTypeOwner />
+            <Reference>False</Reference>
+            <IsHidden>False</IsHidden>
+            <ColumnOrder>5</ColumnOrder>
+            <OldName />
+            <Collation />
+            <DefaultOnNull>False</DefaultOnNull>
+          </Object>
+        </List>
+        <Storage>
+          <Name />
+          <IsSystem>False</IsSystem>
+          <IsIndex>False</IsIndex>
+          <BufferPool>DEFAULT</BufferPool>
+          <FreeLists>1</FreeLists>
+          <FreeListGroups>1</FreeListGroups>
+          <InitialExtent>
+            <Value>64</Value>
+            <TwoPower>10</TwoPower>
+            <SizeType>K</SizeType>
+          </InitialExtent>
+          <IniTrans>1</IniTrans>
+          <MaxExtents>
+            <Value>2147483645</Value>
+            <TwoPower>0</TwoPower>
+            <SizeType>UNDEFINED</SizeType>
+          </MaxExtents>
+          <MaxTrans>255</MaxTrans>
+          <MinExtents>1</MinExtents>
+          <NextExtent>
+            <Value>1</Value>
+            <TwoPower>20</TwoPower>
+            <SizeType>M</SizeType>
+          </NextExtent>
+          <PctFree>10</PctFree>
+          <PctIncrease>50</PctIncrease>
+          <PctUsed>40</PctUsed>
+          <TablespaceName>USERS</TablespaceName>
+        </Storage>
+        <Compression>DISABLED</Compression>
+        <CompressForAllTag>False</CompressForAllTag>
+        <Degree>1</Degree>
+        <Instances>1</Instances>
+        <Locked>ENABLED</Locked>
+        <RowDependencies>DISABLED</RowDependencies>
+        <Logging>YES</Logging>
+        <Monitoring />
+        <Caching>N</Caching>
+        <Comment />
+        <Status>VALID</Status>
+        <BackedUp>N</BackedUp>
+        <ClusterName />
+        <RowMovement>DISABLED</RowMovement>
+        <TableMode>NORMAL</TableMode>
+        <UseOverflow>False</UseOverflow>
+        <Mapping>False</Mapping>
+        <Threshold>50</Threshold>
+        <IncludeColumn>not specified</IncludeColumn>
+        <ClusterOwner>AUTOTEST_DATAEDITOR</ClusterOwner>
+        <IsReadOnly>False</IsReadOnly>
+        <ResultCache>DEFAULT</ResultCache>
+        <FlashbackArchiveName />
+        <Partitioned>False</Partitioned>
+        <Editable>True</Editable>
+        <Temporary>False</Temporary>
+        <TemporarySession>False</TemporarySession>
+        <AttributeClustered>False</AttributeClustered>
+        <List name="Constraints">
+          <Object type="UniqueKey">
+            <Name>SYS_C0029101</Name>
+            <IsSystem>False</IsSystem>
+            <List name="Columns">
+              <Item>pk_int</Item>
+            </List>
+            <Unique>True</Unique>
+            <IsPrimary>True</IsPrimary>
+            <IndexOwner>AUTOTEST_DATAEDITOR</IndexOwner>
+            <IndexName>SYS_C0029101</IndexName>
+            <ConstraintStates>
+              <Enabled>True</Enabled>
+              <Deferrable>NOT DEFERRABLE</Deferrable>
+              <Deferred>IMMEDIATE</Deferred>
+              <Validated>True</Validated>
+              <Generated>GENERATED NAME</Generated>
+              <Bad>False</Bad>
+              <Rely>False</Rely>
+            </ConstraintStates>
+          </Object>
+        </List>
+        <List name="Indexes">
+          <Object type="Index">
+            <Name>SYS_C0029101</Name>
+            <IsSystem>False</IsSystem>
+            <List name="Columns">
+              <Item>pk_int</Item>
+            </List>
+            <List name="SortOrder">
+              <Item>Asc</Item>
+            </List>
+            <Unique>True</Unique>
+            <Storage>
+              <Name />
+              <IsSystem>False</IsSystem>
+              <IsIndex>True</IsIndex>
+              <BufferPool>DEFAULT</BufferPool>
+              <FreeLists>1</FreeLists>
+              <FreeListGroups>1</FreeListGroups>
+              <InitialExtent>
+                <Value>64</Value>
+                <TwoPower>10</TwoPower>
+                <SizeType>K</SizeType>
+              </InitialExtent>
+              <IniTrans>2</IniTrans>
+              <MaxExtents>
+                <Value>2147483645</Value>
+                <TwoPower>0</TwoPower>
+                <SizeType>UNDEFINED</SizeType>
+              </MaxExtents>
+              <MaxTrans>255</MaxTrans>
+              <MinExtents>1</MinExtents>
+              <NextExtent>
+                <Value>1</Value>
+                <TwoPower>20</TwoPower>
+                <SizeType>M</SizeType>
+              </NextExtent>
+              <PctFree>10</PctFree>
+              <PctIncrease>50</PctIncrease>
+              <PctUsed>0</PctUsed>
+              <TablespaceName>USERS</TablespaceName>
+            </Storage>
+            <IndexType>Normal</IndexType>
+            <Status>VALID</Status>
+            <Instances>1</Instances>
+            <Degree>1</Degree>
+            <Logging>YES</Logging>
+            <Reverse>False</Reverse>
+            <Unsorted>False</Unsorted>
+            <Local>False</Local>
+            <CompressState>Disabled</CompressState>
+            <Compress>0</Compress>
+            <Partitioned>False</Partitioned>
+            <Visible>True</Visible>
+            <Enable>True</Enable>
+            <IsSystemNamed>True</IsSystemNamed>
+          </Object>
+        </List>
+      </Object>
+      <Object tableType="Table">
+        <Name>STATE</Name>
+        <IsSystem>False</IsSystem>
+        <List name="Columns">
+          <Object>
+            <Name>pk_int</Name>
+            <IsSystem>False</IsSystem>
+            <Comment />
+            <Type>
+              <Name>NUMBER</Name>
+              <Precision />
+              <Scale>0</Scale>
+              <Length>0</Length>
+              <Collation />
+              <CharUsed>Byte</CharUsed>
+            </Type>
+            <Default />
+            <Nullable>False</Nullable>
+            <IsUnique>False</IsUnique>
+            <IsPrimary>True</IsPrimary>
+            <DataTypeOwner />
+            <Reference>False</Reference>
+            <IsHidden>False</IsHidden>
+            <ColumnOrder>1</ColumnOrder>
+            <OldName />
+            <Collation />
+            <DefaultOnNull>False</DefaultOnNull>
+          </Object>
+          <Object>
+            <Name>bigint</Name>
+            <IsSystem>False</IsSystem>
+            <Comment />
+            <Type>
+              <Name>NUMBER</Name>
+              <Precision>21</Precision>
+              <Scale>0</Scale>
+              <Length>0</Length>
+              <Collation />
+              <CharUsed>Byte</CharUsed>
+            </Type>
+            <Default />
+            <Nullable>True</Nullable>
+            <IsUnique>False</IsUnique>
+            <IsPrimary>False</IsPrimary>
+            <DataTypeOwner />
+            <Reference>False</Reference>
+            <IsHidden>False</IsHidden>
+            <ColumnOrder>2</ColumnOrder>
+            <OldName />
+            <Collation />
+            <DefaultOnNull>False</DefaultOnNull>
+          </Object>
+          <Object>
+            <Name>smallint</Name>
+            <IsSystem>False</IsSystem>
+            <Comment />
+            <Type>
+              <Name>NUMBER</Name>
+              <Precision />
+              <Scale>0</Scale>
+              <Length>0</Length>
+              <Collation />
+              <CharUsed>Byte</CharUsed>
+            </Type>
+            <Default />
+            <Nullable>True</Nullable>
+            <IsUnique>False</IsUnique>
+            <IsPrimary>False</IsPrimary>
+            <DataTypeOwner />
+            <Reference>False</Reference>
+            <IsHidden>False</IsHidden>
+            <ColumnOrder>3</ColumnOrder>
+            <OldName />
+            <Collation />
+            <DefaultOnNull>False</DefaultOnNull>
+          </Object>
+          <Object>
+            <Name>tinyint</Name>
+            <IsSystem>False</IsSystem>
+            <Comment />
+            <Type>
+              <Name>NUMBER</Name>
+              <Precision>4</Precision>
+              <Scale>0</Scale>
+              <Length>0</Length>
+              <Collation />
+              <CharUsed>Byte</CharUsed>
+            </Type>
+            <Default />
+            <Nullable>True</Nullable>
+            <IsUnique>False</IsUnique>
+            <IsPrimary>False</IsPrimary>
+            <DataTypeOwner />
+            <Reference>False</Reference>
+            <IsHidden>False</IsHidden>
+            <ColumnOrder>4</ColumnOrder>
+            <OldName />
+            <Collation />
+            <DefaultOnNull>False</DefaultOnNull>
+          </Object>
+          <Object>
+            <Name>dec</Name>
+            <IsSystem>False</IsSystem>
+            <Comment />
+            <Type>
+              <Name>NUMBER</Name>
+              <Precision>18</Precision>
+              <Scale>0</Scale>
+              <Length>0</Length>
+              <Collation />
+              <CharUsed>Byte</CharUsed>
+            </Type>
+            <Default />
+            <Nullable>True</Nullable>
+            <IsUnique>False</IsUnique>
+            <IsPrimary>False</IsPrimary>
+            <DataTypeOwner />
+            <Reference>False</Reference>
+            <IsHidden>False</IsHidden>
+            <ColumnOrder>5</ColumnOrder>
+            <OldName />
+            <Collation />
+            <DefaultOnNull>False</DefaultOnNull>
+          </Object>
+        </List>
+        <Storage>
+          <Name />
+          <IsSystem>False</IsSystem>
+          <IsIndex>False</IsIndex>
+          <BufferPool>DEFAULT</BufferPool>
+          <FreeLists>1</FreeLists>
+          <FreeListGroups>1</FreeListGroups>
+          <InitialExtent>
+            <Value>64</Value>
+            <TwoPower>10</TwoPower>
+            <SizeType>K</SizeType>
+          </InitialExtent>
+          <IniTrans>1</IniTrans>
+          <MaxExtents>
+            <Value>2147483645</Value>
+            <TwoPower>0</TwoPower>
+            <SizeType>UNDEFINED</SizeType>
+          </MaxExtents>
+          <MaxTrans>255</MaxTrans>
+          <MinExtents>1</MinExtents>
+          <NextExtent>
+            <Value>1</Value>
+            <TwoPower>20</TwoPower>
+            <SizeType>M</SizeType>
+          </NextExtent>
+          <PctFree>10</PctFree>
+          <PctIncrease>50</PctIncrease>
+          <PctUsed>40</PctUsed>
+          <TablespaceName>USERS</TablespaceName>
+        </Storage>
+        <Compression>DISABLED</Compression>
+        <CompressForAllTag>False</CompressForAllTag>
+        <Degree>1</Degree>
+        <Instances>1</Instances>
+        <Locked>ENABLED</Locked>
+        <RowDependencies>DISABLED</RowDependencies>
+        <Logging>YES</Logging>
+        <Monitoring />
+        <Caching>N</Caching>
+        <Comment />
+        <Status>VALID</Status>
+        <BackedUp>N</BackedUp>
+        <ClusterName />
+        <RowMovement>DISABLED</RowMovement>
+        <TableMode>NORMAL</TableMode>
+        <UseOverflow>False</UseOverflow>
+        <Mapping>False</Mapping>
+        <Threshold>50</Threshold>
+        <IncludeColumn>not specified</IncludeColumn>
+        <ClusterOwner>AUTOTEST_DATAEDITOR</ClusterOwner>
+        <IsReadOnly>False</IsReadOnly>
+        <ResultCache>DEFAULT</ResultCache>
+        <FlashbackArchiveName />
+        <Partitioned>False</Partitioned>
+        <Editable>True</Editable>
+        <Temporary>False</Temporary>
+        <TemporarySession>False</TemporarySession>
+        <AttributeClustered>False</AttributeClustered>
+        <List name="Constraints">
+          <Object type="UniqueKey">
+            <Name>SYS_C0029096</Name>
+            <IsSystem>False</IsSystem>
+            <List name="Columns">
+              <Item>pk_int</Item>
+            </List>
+            <Unique>True</Unique>
+            <IsPrimary>True</IsPrimary>
+            <IndexOwner>AUTOTEST_DATAEDITOR</IndexOwner>
+            <IndexName>SYS_C0029096</IndexName>
+            <ConstraintStates>
+              <Enabled>True</Enabled>
+              <Deferrable>NOT DEFERRABLE</Deferrable>
+              <Deferred>IMMEDIATE</Deferred>
+              <Validated>True</Validated>
+              <Generated>GENERATED NAME</Generated>
+              <Bad>False</Bad>
+              <Rely>False</Rely>
+            </ConstraintStates>
+          </Object>
+        </List>
+        <List name="Indexes">
+          <Object type="Index">
+            <Name>SYS_C0029096</Name>
+            <IsSystem>False</IsSystem>
+            <List name="Columns">
+              <Item>pk_int</Item>
+            </List>
+            <List name="SortOrder">
+              <Item>Asc</Item>
+            </List>
+            <Unique>True</Unique>
+            <Storage>
+              <Name />
+              <IsSystem>False</IsSystem>
+              <IsIndex>True</IsIndex>
+              <BufferPool>DEFAULT</BufferPool>
+              <FreeLists>1</FreeLists>
+              <FreeListGroups>1</FreeListGroups>
+              <InitialExtent>
+                <Value>64</Value>
+                <TwoPower>10</TwoPower>
+                <SizeType>K</SizeType>
+              </InitialExtent>
+              <IniTrans>2</IniTrans>
+              <MaxExtents>
+                <Value>2147483645</Value>
+                <TwoPower>0</TwoPower>
+                <SizeType>UNDEFINED</SizeType>
+              </MaxExtents>
+              <MaxTrans>255</MaxTrans>
+              <MinExtents>1</MinExtents>
+              <NextExtent>
+                <Value>1</Value>
+                <TwoPower>20</TwoPower>
+                <SizeType>M</SizeType>
+              </NextExtent>
+              <PctFree>10</PctFree>
+              <PctIncrease>50</PctIncrease>
+              <PctUsed>0</PctUsed>
+              <TablespaceName>USERS</TablespaceName>
+            </Storage>
+            <IndexType>Normal</IndexType>
+            <Status>VALID</Status>
+            <Instances>1</Instances>
+            <Degree>1</Degree>
+            <Logging>YES</Logging>
+            <Reverse>False</Reverse>
+            <Unsorted>False</Unsorted>
+            <Local>False</Local>
+            <CompressState>Disabled</CompressState>
+            <Compress>0</Compress>
+            <Partitioned>False</Partitioned>
+            <Visible>True</Visible>
+            <Enable>True</Enable>
+            <IsSystemNamed>True</IsSystemNamed>
+          </Object>
+        </List>
+      </Object>
+      <Object tableType="Table">
+        <Name>TT</Name>
+        <IsSystem>False</IsSystem>
+        <List name="Columns">
+          <Object>
+            <Name>ID</Name>
+            <IsSystem>False</IsSystem>
+            <Comment />
+            <Type>
+              <Name>NUMBER</Name>
+              <Precision />
+              <Scale />
+              <Length>0</Length>
+              <Collation />
+              <CharUsed>Byte</CharUsed>
+            </Type>
+            <Default />
+            <Nullable>False</Nullable>
+            <IsUnique>False</IsUnique>
+            <IsPrimary>True</IsPrimary>
+            <DataTypeOwner />
+            <Reference>False</Reference>
+            <IsHidden>False</IsHidden>
+            <ColumnOrder>1</ColumnOrder>
+            <OldName />
+            <Collation />
+            <DefaultOnNull>False</DefaultOnNull>
+          </Object>
+          <Object>
+            <Name>TT</Name>
+            <IsSystem>False</IsSystem>
+            <Comment />
+            <Type>
+              <Name>TT1</Name>
+              <Precision />
+              <Scale />
+              <Length>16</Length>
+              <Collation />
+              <CharUsed>Byte</CharUsed>
+            </Type>
+            <Default />
+            <Nullable>True</Nullable>
+            <IsUnique>False</IsUnique>
+            <IsPrimary>False</IsPrimary>
+            <IsComputed>True</IsComputed>
+            <DataTypeOwner>AUTOTEST_DATAEDITOR</DataTypeOwner>
+            <Reference>False</Reference>
+            <IsHidden>False</IsHidden>
+            <ColumnOrder>2</ColumnOrder>
+            <OldName />
+            <Collation />
+            <DefaultOnNull>False</DefaultOnNull>
+          </Object>
+        </List>
+        <List name="HiddenColumns">
+          <Object>
+            <Name>SYS_NC0000200003$</Name>
+            <IsSystem>True</IsSystem>
+            <Comment />
+            <Type>
+              <Name>RAW</Name>
+              <Precision />
+              <Scale />
+              <Length>16</Length>
+              <Collation />
+              <CharUsed>Byte</CharUsed>
+            </Type>
+            <Default />
+            <Nullable>True</Nullable>
+            <IsUnique>False</IsUnique>
+            <IsPrimary>False</IsPrimary>
+            <DataTypeOwner />
+            <Reference>False</Reference>
+            <IsHidden>True</IsHidden>
+            <ColumnOrder>2</ColumnOrder>
+            <OldName />
+            <Collation />
+            <DefaultOnNull>False</DefaultOnNull>
+          </Object>
+        </List>
+        <Storage>
+          <Name />
+          <IsSystem>False</IsSystem>
+          <IsIndex>False</IsIndex>
+          <BufferPool>DEFAULT</BufferPool>
+          <FreeLists>1</FreeLists>
+          <FreeListGroups>1</FreeListGroups>
+          <InitialExtent>
+            <Value>64</Value>
+            <TwoPower>10</TwoPower>
+            <SizeType>K</SizeType>
+          </InitialExtent>
+          <IniTrans>1</IniTrans>
+          <MaxExtents>
+            <Value>2147483645</Value>
+            <TwoPower>0</TwoPower>
+            <SizeType>UNDEFINED</SizeType>
+          </MaxExtents>
+          <MaxTrans>255</MaxTrans>
+          <MinExtents>1</MinExtents>
+          <NextExtent>
+            <Value>1</Value>
+            <TwoPower>20</TwoPower>
+            <SizeType>M</SizeType>
+          </NextExtent>
+          <PctFree>10</PctFree>
+          <PctIncrease>50</PctIncrease>
+          <PctUsed>40</PctUsed>
+          <TablespaceName>USERS</TablespaceName>
+        </Storage>
+        <Compression>DISABLED</Compression>
+        <CompressForAllTag>False</CompressForAllTag>
+        <Degree>1</Degree>
+        <Instances>1</Instances>
+        <Locked>ENABLED</Locked>
+        <RowDependencies>DISABLED</RowDependencies>
+        <Logging>YES</Logging>
+        <Monitoring />
+        <Caching>N</Caching>
+        <Comment />
+        <Status>VALID</Status>
+        <BackedUp>N</BackedUp>
+        <ClusterName />
+        <RowMovement>DISABLED</RowMovement>
+        <TableMode>NORMAL</TableMode>
+        <UseOverflow>False</UseOverflow>
+        <Mapping>False</Mapping>
+        <Threshold>50</Threshold>
+        <IncludeColumn>not specified</IncludeColumn>
+        <ClusterOwner>AUTOTEST_DATAEDITOR</ClusterOwner>
+        <IsReadOnly>False</IsReadOnly>
+        <ResultCache>DEFAULT</ResultCache>
+        <FlashbackArchiveName />
+        <Partitioned>False</Partitioned>
+        <Editable>True</Editable>
+        <Temporary>False</Temporary>
+        <TemporarySession>False</TemporarySession>
+        <AttributeClustered>False</AttributeClustered>
+        <List name="Constraints">
+          <Object type="UniqueKey">
+            <Name>SYS_C00472698</Name>
+            <IsSystem>False</IsSystem>
+            <List name="Columns">
+              <Item>ID</Item>
+            </List>
+            <Unique>True</Unique>
+            <IsPrimary>True</IsPrimary>
+            <IndexOwner>AUTOTEST_DATAEDITOR</IndexOwner>
+            <IndexName>SYS_C00472698</IndexName>
+            <ConstraintStates>
+              <Enabled>True</Enabled>
+              <Deferrable>NOT DEFERRABLE</Deferrable>
+              <Deferred>IMMEDIATE</Deferred>
+              <Validated>True</Validated>
+              <Generated>GENERATED NAME</Generated>
+              <Bad>False</Bad>
+              <Rely>False</Rely>
+            </ConstraintStates>
+          </Object>
+          <Object type="UniqueKey">
+            <Name>SYS_C0029093</Name>
+            <IsSystem>False</IsSystem>
+            <List name="Columns">
+              <Item>SYS_NC0000200003$</Item>
+            </List>
+            <Unique>True</Unique>
+            <IsPrimary>False</IsPrimary>
+            <IndexOwner>AUTOTEST_DATAEDITOR</IndexOwner>
+            <IndexName>SYS_C0029093</IndexName>
+            <ConstraintStates>
+              <Enabled>True</Enabled>
+              <Deferrable>NOT DEFERRABLE</Deferrable>
+              <Deferred>IMMEDIATE</Deferred>
+              <Validated>True</Validated>
+              <Generated>GENERATED NAME</Generated>
+              <Bad>False</Bad>
+              <Rely>True</Rely>
+            </ConstraintStates>
+          </Object>
+        </List>
+        <List name="Indexes">
+          <Object type="Index">
+            <Name>SYS_C0029093</Name>
+            <IsSystem>False</IsSystem>
+            <List name="Columns">
+              <Item>TT</Item>
+            </List>
+            <List name="SortOrder">
+              <Item>Asc</Item>
+            </List>
+            <Unique>True</Unique>
+            <Storage>
+              <Name />
+              <IsSystem>False</IsSystem>
+              <IsIndex>True</IsIndex>
+              <BufferPool>DEFAULT</BufferPool>
+              <FreeLists>1</FreeLists>
+              <FreeListGroups>1</FreeListGroups>
+              <InitialExtent>
+                <Value>64</Value>
+                <TwoPower>10</TwoPower>
+                <SizeType>K</SizeType>
+              </InitialExtent>
+              <IniTrans>2</IniTrans>
+              <MaxExtents>
+                <Value>2147483645</Value>
+                <TwoPower>0</TwoPower>
+                <SizeType>UNDEFINED</SizeType>
+              </MaxExtents>
+              <MaxTrans>255</MaxTrans>
+              <MinExtents>1</MinExtents>
+              <NextExtent>
+                <Value>1</Value>
+                <TwoPower>20</TwoPower>
+                <SizeType>M</SizeType>
+              </NextExtent>
+              <PctFree>10</PctFree>
+              <PctIncrease>50</PctIncrease>
+              <PctUsed>0</PctUsed>
+              <TablespaceName>USERS</TablespaceName>
+            </Storage>
+            <IndexType>Normal</IndexType>
+            <Status>VALID</Status>
+            <Instances>1</Instances>
+            <Degree>1</Degree>
+            <Logging>YES</Logging>
+            <Reverse>False</Reverse>
+            <Unsorted>False</Unsorted>
+            <Local>False</Local>
+            <CompressState>Disabled</CompressState>
+            <Compress>0</Compress>
+            <Partitioned>False</Partitioned>
+            <Visible>True</Visible>
+            <Enable>True</Enable>
+            <IsSystemNamed>True</IsSystemNamed>
+          </Object>
+          <Object type="Index">
+            <Name>SYS_C00472698</Name>
+            <IsSystem>False</IsSystem>
+            <List name="Columns">
+              <Item>ID</Item>
+            </List>
+            <List name="SortOrder">
+              <Item>Asc</Item>
+            </List>
+            <Unique>True</Unique>
+            <Storage>
+              <Name />
+              <IsSystem>False</IsSystem>
+              <IsIndex>True</IsIndex>
+              <BufferPool>DEFAULT</BufferPool>
+              <FreeLists>1</FreeLists>
+              <FreeListGroups>1</FreeListGroups>
+              <InitialExtent>
+                <Value>64</Value>
+                <TwoPower>10</TwoPower>
+                <SizeType>K</SizeType>
+              </InitialExtent>
+              <IniTrans>2</IniTrans>
+              <MaxExtents>
+                <Value>2147483645</Value>
+                <TwoPower>0</TwoPower>
+                <SizeType>UNDEFINED</SizeType>
+              </MaxExtents>
+              <MaxTrans>255</MaxTrans>
+              <MinExtents>1</MinExtents>
+              <NextExtent>
+                <Value>1</Value>
+                <TwoPower>20</TwoPower>
+                <SizeType>M</SizeType>
+              </NextExtent>
+              <PctFree>10</PctFree>
+              <PctIncrease>50</PctIncrease>
+              <PctUsed>0</PctUsed>
+              <TablespaceName>USERS</TablespaceName>
+            </Storage>
+            <IndexType>Normal</IndexType>
+            <Status>VALID</Status>
+            <Instances>1</Instances>
+            <Degree>1</Degree>
+            <Logging>YES</Logging>
+            <Reverse>False</Reverse>
+            <Unsorted>False</Unsorted>
+            <Local>False</Local>
+            <CompressState>Disabled</CompressState>
+            <Compress>0</Compress>
+            <Partitioned>False</Partitioned>
+            <Visible>True</Visible>
+            <Enable>True</Enable>
+            <IsSystemNamed>False</IsSystemNamed>
+          </Object>
+        </List>
+      </Object>
+      <Object tableType="Table">
+        <Name>T_TIMESTAMP</Name>
+        <IsSystem>False</IsSystem>
+        <List name="Columns">
+          <Object>
+            <Name>ID</Name>
+            <IsSystem>False</IsSystem>
+            <Comment />
+            <Type>
+              <Name>NUMBER</Name>
+              <Precision>38</Precision>
+              <Scale>0</Scale>
+              <Length>0</Length>
+              <Collation />
+              <CharUsed>Byte</CharUsed>
+            </Type>
+            <Default />
+            <Nullable>False</Nullable>
+            <IsUnique>False</IsUnique>
+            <IsPrimary>True</IsPrimary>
+            <DataTypeOwner />
+            <Reference>False</Reference>
+            <IsHidden>False</IsHidden>
+            <ColumnOrder>1</ColumnOrder>
+            <OldName />
+            <Collation />
+            <DefaultOnNull>False</DefaultOnNull>
+          </Object>
+          <Object>
+            <Name>TS1</Name>
+            <IsSystem>False</IsSystem>
+            <Comment />
+            <Type>
+              <Name>TIMESTAMP</Name>
+              <Precision />
+              <Scale>0</Scale>
+              <Length>0</Length>
+              <Collation />
+              <CharUsed>Byte</CharUsed>
+            </Type>
+            <Default />
+            <Nullable>True</Nullable>
+            <IsUnique>False</IsUnique>
+            <IsPrimary>False</IsPrimary>
+            <DataTypeOwner />
+            <Reference>False</Reference>
+            <IsHidden>False</IsHidden>
+            <ColumnOrder>2</ColumnOrder>
+            <OldName />
+            <Collation />
+            <DefaultOnNull>False</DefaultOnNull>
+          </Object>
+          <Object>
+            <Name>TS2</Name>
+            <IsSystem>False</IsSystem>
+            <Comment />
+            <Type>
+              <Name>TIMESTAMP</Name>
+              <Precision />
+              <Scale>6</Scale>
+              <Length>0</Length>
+              <Collation />
+              <CharUsed>Byte</CharUsed>
+            </Type>
+            <Default />
+            <Nullable>True</Nullable>
+            <IsUnique>False</IsUnique>
+            <IsPrimary>False</IsPrimary>
+            <DataTypeOwner />
+            <Reference>False</Reference>
+            <IsHidden>False</IsHidden>
+            <ColumnOrder>3</ColumnOrder>
+            <OldName />
+            <Collation />
+            <DefaultOnNull>False</DefaultOnNull>
+          </Object>
+          <Object>
+            <Name>TS3</Name>
+            <IsSystem>False</IsSystem>
+            <Comment />
+            <Type>
+              <Name>TIMESTAMP</Name>
+              <Precision />
+              <Scale>6</Scale>
+              <Length>0</Length>
+              <Collation />
+              <CharUsed>Byte</CharUsed>
+            </Type>
+            <Default />
+            <Nullable>True</Nullable>
+            <IsUnique>False</IsUnique>
+            <IsPrimary>False</IsPrimary>
+            <DataTypeOwner />
+            <Reference>False</Reference>
+            <IsHidden>False</IsHidden>
+            <ColumnOrder>4</ColumnOrder>
+            <OldName />
+            <Collation />
+            <DefaultOnNull>False</DefaultOnNull>
+          </Object>
+        </List>
+        <Storage>
+          <Name />
+          <IsSystem>False</IsSystem>
+          <IsIndex>False</IsIndex>
+          <BufferPool>DEFAULT</BufferPool>
+          <FreeLists>1</FreeLists>
+          <FreeListGroups>1</FreeListGroups>
+          <InitialExtent>
+            <Value>64</Value>
+            <TwoPower>10</TwoPower>
+            <SizeType>K</SizeType>
+          </InitialExtent>
+          <IniTrans>1</IniTrans>
+          <MaxExtents>
+            <Value>2147483645</Value>
+            <TwoPower>0</TwoPower>
+            <SizeType>UNDEFINED</SizeType>
+          </MaxExtents>
+          <MaxTrans>255</MaxTrans>
+          <MinExtents>1</MinExtents>
+          <NextExtent>
+            <Value>1</Value>
+            <TwoPower>20</TwoPower>
+            <SizeType>M</SizeType>
+          </NextExtent>
+          <PctFree>10</PctFree>
+          <PctIncrease>50</PctIncrease>
+          <PctUsed>40</PctUsed>
+          <TablespaceName>USERS</TablespaceName>
+        </Storage>
+        <Compression>DISABLED</Compression>
+        <CompressForAllTag>False</CompressForAllTag>
+        <Degree>1</Degree>
+        <Instances>1</Instances>
+        <Locked>ENABLED</Locked>
+        <RowDependencies>DISABLED</RowDependencies>
+        <Logging>YES</Logging>
+        <Monitoring />
+        <Caching>N</Caching>
+        <Comment />
+        <Status>VALID</Status>
+        <BackedUp>N</BackedUp>
+        <ClusterName />
+        <RowMovement>DISABLED</RowMovement>
+        <TableMode>NORMAL</TableMode>
+        <UseOverflow>False</UseOverflow>
+        <Mapping>False</Mapping>
+        <Threshold>50</Threshold>
+        <IncludeColumn>not specified</IncludeColumn>
+        <ClusterOwner>AUTOTEST_DATAEDITOR</ClusterOwner>
+        <IsReadOnly>False</IsReadOnly>
+        <ResultCache>DEFAULT</ResultCache>
+        <FlashbackArchiveName />
+        <Partitioned>False</Partitioned>
+        <Editable>True</Editable>
+        <Temporary>False</Temporary>
+        <TemporarySession>False</TemporarySession>
+        <AttributeClustered>False</AttributeClustered>
+        <List name="Constraints">
+          <Object type="UniqueKey">
+            <Name>PK_T_TIMESTAMP_ID</Name>
+            <IsSystem>False</IsSystem>
+            <List name="Columns">
+              <Item>ID</Item>
+            </List>
+            <Unique>True</Unique>
+            <IsPrimary>True</IsPrimary>
+            <IndexOwner>AUTOTEST_DATAEDITOR</IndexOwner>
+            <IndexName>PK_T_TIMESTAMP_ID</IndexName>
+            <ConstraintStates>
+              <Enabled>True</Enabled>
+              <Deferrable>NOT DEFERRABLE</Deferrable>
+              <Deferred>IMMEDIATE</Deferred>
+              <Validated>True</Validated>
+              <Generated>USER NAME</Generated>
+              <Bad>False</Bad>
+              <Rely>False</Rely>
+            </ConstraintStates>
+          </Object>
+        </List>
+        <List name="Indexes">
+          <Object type="Index">
+            <Name>PK_T_TIMESTAMP_ID</Name>
+            <IsSystem>False</IsSystem>
+            <List name="Columns">
+              <Item>ID</Item>
+            </List>
+            <List name="SortOrder">
+              <Item>Asc</Item>
+            </List>
+            <Unique>True</Unique>
+            <Storage>
+              <Name />
+              <IsSystem>False</IsSystem>
+              <IsIndex>True</IsIndex>
+              <BufferPool>DEFAULT</BufferPool>
+              <FreeLists>1</FreeLists>
+              <FreeListGroups>1</FreeListGroups>
+              <InitialExtent>
+                <Value>64</Value>
+                <TwoPower>10</TwoPower>
+                <SizeType>K</SizeType>
+              </InitialExtent>
+              <IniTrans>2</IniTrans>
+              <MaxExtents>
+                <Value>2147483645</Value>
+                <TwoPower>0</TwoPower>
+                <SizeType>UNDEFINED</SizeType>
+              </MaxExtents>
+              <MaxTrans>255</MaxTrans>
+              <MinExtents>1</MinExtents>
+              <NextExtent>
+                <Value>1</Value>
+                <TwoPower>20</TwoPower>
+                <SizeType>M</SizeType>
+              </NextExtent>
+              <PctFree>10</PctFree>
+              <PctIncrease>50</PctIncrease>
+              <PctUsed>0</PctUsed>
+              <TablespaceName>USERS</TablespaceName>
+            </Storage>
+            <IndexType>Normal</IndexType>
+            <Status>VALID</Status>
+            <Instances>1</Instances>
+            <Degree>1</Degree>
+            <Logging>YES</Logging>
+            <Reverse>False</Reverse>
+            <Unsorted>False</Unsorted>
+            <Local>False</Local>
+            <CompressState>Disabled</CompressState>
+            <Compress>0</Compress>
+            <Partitioned>False</Partitioned>
+            <Visible>True</Visible>
+            <Enable>True</Enable>
+            <IsSystemNamed>False</IsSystemNamed>
+          </Object>
+        </List>
+      </Object>
+      <Object tableType="Table">
+        <Name>XML_URI</Name>
+        <IsSystem>False</IsSystem>
+        <List name="Columns">
+          <Object>
+            <Name>ID</Name>
+            <IsSystem>False</IsSystem>
+            <Comment />
+            <Type>
+              <Name>NUMBER</Name>
+              <Precision>10</Precision>
+              <Scale>0</Scale>
+              <Length>0</Length>
+              <Collation />
+              <CharUsed>Byte</CharUsed>
+            </Type>
+            <Default />
+            <Nullable>False</Nullable>
+            <IsUnique>False</IsUnique>
+            <IsPrimary>True</IsPrimary>
+            <DataTypeOwner />
+            <Reference>False</Reference>
+            <IsHidden>False</IsHidden>
+            <ColumnOrder>1</ColumnOrder>
+            <OldName />
+            <Collation />
+            <DefaultOnNull>False</DefaultOnNull>
+          </Object>
+          <Object>
+            <Name>XML</Name>
+            <IsSystem>False</IsSystem>
+            <Comment />
+            <Type>
+              <Name>XMLTYPE</Name>
+              <Precision />
+              <Scale />
+              <Length>0</Length>
+              <Collation />
+              <CharUsed>Byte</CharUsed>
+            </Type>
+            <Default />
+            <Nullable>True</Nullable>
+            <IsUnique>False</IsUnique>
+            <IsPrimary>False</IsPrimary>
+            <IsComputed>True</IsComputed>
+            <DataTypeOwner />
+            <Reference>False</Reference>
+            <IsHidden>False</IsHidden>
+            <ColumnOrder>2</ColumnOrder>
+            <OldName />
+            <Collation />
+            <DefaultOnNull>False</DefaultOnNull>
+            <XmlSchema />
+            <ElementName />
+            <StorageType>BINARY</StorageType>
+          </Object>
+          <Object>
+            <Name>URI</Name>
+            <IsSystem>False</IsSystem>
+            <Comment />
+            <Type>
+              <Name>URITYPE</Name>
+              <Precision />
+              <Scale />
+              <Length>256</Length>
+              <Collation />
+              <CharUsed>Byte</CharUsed>
+            </Type>
+            <Default />
+            <Nullable>True</Nullable>
+            <IsUnique>False</IsUnique>
+            <IsPrimary>False</IsPrimary>
+            <DataTypeOwner>PUBLIC</DataTypeOwner>
+            <Reference>False</Reference>
+            <IsHidden>False</IsHidden>
+            <ColumnOrder>3</ColumnOrder>
+            <OldName />
+            <Collation />
+            <DefaultOnNull>False</DefaultOnNull>
+          </Object>
+        </List>
+        <List name="HiddenColumns">
+          <Object>
+            <Name>SYS_NC00003$</Name>
+            <IsSystem>True</IsSystem>
+            <Comment />
+            <Type>
+              <Name>BLOB</Name>
+              <Precision />
+              <Scale />
+              <Length>0</Length>
+              <Collation />
+              <CharUsed>Byte</CharUsed>
+            </Type>
+            <Default />
+            <Nullable>True</Nullable>
+            <IsUnique>False</IsUnique>
+            <IsPrimary>False</IsPrimary>
+            <DataTypeOwner />
+            <Reference>False</Reference>
+            <IsHidden>True</IsHidden>
+            <ColumnOrder>2</ColumnOrder>
+            <OldName />
+            <Collation />
+            <DefaultOnNull>False</DefaultOnNull>
+          </Object>
+          <Object>
+            <Name>SYS_NC00005$</Name>
+            <IsSystem>True</IsSystem>
+            <Comment />
+            <Type>
+              <Name>RAW</Name>
+              <Precision />
+              <Scale />
+              <Length>16</Length>
+              <Collation />
+              <CharUsed>Byte</CharUsed>
+            </Type>
+            <Default>''</Default>
+            <Nullable>True</Nullable>
+            <IsUnique>False</IsUnique>
+            <IsPrimary>False</IsPrimary>
+            <DataTypeOwner />
+            <Reference>False</Reference>
+            <IsHidden>True</IsHidden>
+            <ColumnOrder>3</ColumnOrder>
+            <OldName />
+            <Collation />
+            <DefaultOnNull>False</DefaultOnNull>
+          </Object>
+          <Object>
+            <Name>SYS_NC00006$</Name>
+            <IsSystem>True</IsSystem>
+            <Comment />
+            <Type>
+              <Name>VARCHAR2</Name>
+              <Precision />
+              <Scale />
+              <Length>4000</Length>
+              <Collation>USING_NLS_COMP</Collation>
+              <CharUsed>Byte</CharUsed>
+            </Type>
+            <Default />
+            <Nullable>True</Nullable>
+            <IsUnique>False</IsUnique>
+            <IsPrimary>False</IsPrimary>
+            <DataTypeOwner />
+            <Reference>False</Reference>
+            <IsHidden>True</IsHidden>
+            <ColumnOrder>3</ColumnOrder>
+            <OldName />
+            <Collation>USING_NLS_COMP</Collation>
+            <DefaultOnNull>False</DefaultOnNull>
+          </Object>
+          <Object>
+            <Name>SYS_NC00007$</Name>
+            <IsSystem>True</IsSystem>
+            <Comment />
+            <Type>
+              <Name>RAW</Name>
+              <Precision />
+              <Scale />
+              <Length>2000</Length>
+              <Collation />
+              <CharUsed>Byte</CharUsed>
+            </Type>
+            <Default />
+            <Nullable>True</Nullable>
+            <IsUnique>False</IsUnique>
+            <IsPrimary>False</IsPrimary>
+            <DataTypeOwner />
+            <Reference>False</Reference>
+            <IsHidden>True</IsHidden>
+            <ColumnOrder>3</ColumnOrder>
+            <OldName />
+            <Collation />
+            <DefaultOnNull>False</DefaultOnNull>
+          </Object>
+          <Object>
+            <Name>SYS_NC00008$</Name>
+            <IsSystem>True</IsSystem>
+            <Comment />
+            <Type>
+              <Name>RAW</Name>
+              <Precision />
+              <Scale />
+              <Length>2000</Length>
+              <Collation />
+              <CharUsed>Byte</CharUsed>
+            </Type>
+            <Default />
+            <Nullable>True</Nullable>
+            <IsUnique>False</IsUnique>
+            <IsPrimary>False</IsPrimary>
+            <DataTypeOwner />
+            <Reference>False</Reference>
+            <IsHidden>True</IsHidden>
+            <ColumnOrder>3</ColumnOrder>
+            <OldName />
+            <Collation />
+            <DefaultOnNull>False</DefaultOnNull>
+          </Object>
+        </List>
+        <Storage>
+          <Name />
+          <IsSystem>False</IsSystem>
+          <IsIndex>False</IsIndex>
+          <BufferPool>DEFAULT</BufferPool>
+          <FreeLists>1</FreeLists>
+          <FreeListGroups>1</FreeListGroups>
+          <InitialExtent>
+            <Value>64</Value>
+            <TwoPower>10</TwoPower>
+            <SizeType>K</SizeType>
+          </InitialExtent>
+          <IniTrans>1</IniTrans>
+          <MaxExtents>
+            <Value>2147483645</Value>
+            <TwoPower>0</TwoPower>
+            <SizeType>UNDEFINED</SizeType>
+          </MaxExtents>
+          <MaxTrans>255</MaxTrans>
+          <MinExtents>1</MinExtents>
+          <NextExtent>
+            <Value>1</Value>
+            <TwoPower>20</TwoPower>
+            <SizeType>M</SizeType>
+          </NextExtent>
+          <PctFree>10</PctFree>
+          <PctIncrease>50</PctIncrease>
+          <PctUsed>40</PctUsed>
+          <TablespaceName>USERS</TablespaceName>
+        </Storage>
+        <Compression>DISABLED</Compression>
+        <CompressForAllTag>False</CompressForAllTag>
+        <Degree>1</Degree>
+        <Instances>1</Instances>
+        <Locked>ENABLED</Locked>
+        <RowDependencies>DISABLED</RowDependencies>
+        <Logging>YES</Logging>
+        <Monitoring />
+        <Caching>N</Caching>
+        <Comment />
+        <Status>VALID</Status>
+        <BackedUp>N</BackedUp>
+        <ClusterName />
+        <RowMovement>DISABLED</RowMovement>
+        <TableMode>NORMAL</TableMode>
+        <UseOverflow>False</UseOverflow>
+        <Mapping>False</Mapping>
+        <Threshold>50</Threshold>
+        <IncludeColumn>not specified</IncludeColumn>
+        <ClusterOwner>AUTOTEST_DATAEDITOR</ClusterOwner>
+        <IsReadOnly>False</IsReadOnly>
+        <ResultCache>DEFAULT</ResultCache>
+        <FlashbackArchiveName />
+        <Partitioned>False</Partitioned>
+        <Editable>True</Editable>
+        <Temporary>False</Temporary>
+        <TemporarySession>False</TemporarySession>
+        <AttributeClustered>False</AttributeClustered>
+        <List name="Constraints">
+          <Object type="UniqueKey">
+            <Name>PK_XML_URI</Name>
+            <IsSystem>False</IsSystem>
+            <List name="Columns">
+              <Item>ID</Item>
+            </List>
+            <Unique>True</Unique>
+            <IsPrimary>True</IsPrimary>
+            <IndexOwner>AUTOTEST_DATAEDITOR</IndexOwner>
+            <IndexName>PK_XML_URI</IndexName>
+            <ConstraintStates>
+              <Enabled>True</Enabled>
+              <Deferrable>NOT DEFERRABLE</Deferrable>
+              <Deferred>IMMEDIATE</Deferred>
+              <Validated>True</Validated>
+              <Generated>USER NAME</Generated>
+              <Bad>False</Bad>
+              <Rely>False</Rely>
+            </ConstraintStates>
+          </Object>
+        </List>
+        <List name="Indexes">
+          <Object type="Index">
+            <Name>PK_XML_URI</Name>
+            <IsSystem>False</IsSystem>
+            <List name="Columns">
+              <Item>ID</Item>
+            </List>
+            <List name="SortOrder">
+              <Item>Asc</Item>
+            </List>
+            <Unique>True</Unique>
+            <Storage>
+              <Name />
+              <IsSystem>False</IsSystem>
+              <IsIndex>True</IsIndex>
+              <BufferPool>DEFAULT</BufferPool>
+              <FreeLists>1</FreeLists>
+              <FreeListGroups>1</FreeListGroups>
+              <InitialExtent>
+                <Value>64</Value>
+                <TwoPower>10</TwoPower>
+                <SizeType>K</SizeType>
+              </InitialExtent>
+              <IniTrans>2</IniTrans>
+              <MaxExtents>
+                <Value>2147483645</Value>
+                <TwoPower>0</TwoPower>
+                <SizeType>UNDEFINED</SizeType>
+              </MaxExtents>
+              <MaxTrans>255</MaxTrans>
+              <MinExtents>1</MinExtents>
+              <NextExtent>
+                <Value>1</Value>
+                <TwoPower>20</TwoPower>
+                <SizeType>M</SizeType>
+              </NextExtent>
+              <PctFree>10</PctFree>
+              <PctIncrease>50</PctIncrease>
+              <PctUsed>0</PctUsed>
+              <TablespaceName>USERS</TablespaceName>
+            </Storage>
+            <IndexType>Normal</IndexType>
+            <Status>VALID</Status>
+            <Instances>1</Instances>
+            <Degree>1</Degree>
+            <Logging>YES</Logging>
+            <Reverse>False</Reverse>
+            <Unsorted>False</Unsorted>
+            <Local>False</Local>
+            <CompressState>Disabled</CompressState>
+            <Compress>0</Compress>
+            <Partitioned>False</Partitioned>
+            <Visible>True</Visible>
+            <Enable>True</Enable>
+            <IsSystemNamed>False</IsSystemNamed>
+          </Object>
+          <Object type="Index">
+            <Name>SYS_IL0000113534C00003$$</Name>
+            <IsSystem>False</IsSystem>
+            <Unique>True</Unique>
+            <Storage>
+              <Name />
+              <IsSystem>False</IsSystem>
+              <IsIndex>True</IsIndex>
+              <BufferPool>DEFAULT</BufferPool>
+              <FreeLists>1</FreeLists>
+              <FreeListGroups>1</FreeListGroups>
+              <InitialExtent>
+                <Value>64</Value>
+                <TwoPower>10</TwoPower>
+                <SizeType>K</SizeType>
+              </InitialExtent>
+              <IniTrans>2</IniTrans>
+              <MaxExtents>
+                <Value>2147483645</Value>
+                <TwoPower>0</TwoPower>
+                <SizeType>UNDEFINED</SizeType>
+              </MaxExtents>
+              <MaxTrans>255</MaxTrans>
+              <MinExtents>1</MinExtents>
+              <NextExtent>
+                <Value>1</Value>
+                <TwoPower>20</TwoPower>
+                <SizeType>M</SizeType>
+              </NextExtent>
+              <PctFree>10</PctFree>
+              <PctIncrease>50</PctIncrease>
+              <PctUsed>0</PctUsed>
+              <TablespaceName>USERS</TablespaceName>
+            </Storage>
+            <IndexType>Lob</IndexType>
+            <Status>VALID</Status>
+            <Instances>0</Instances>
+            <Degree>0</Degree>
+            <Logging>YES</Logging>
+            <Reverse>False</Reverse>
+            <Unsorted>False</Unsorted>
+            <Local>False</Local>
+            <CompressState>Disabled</CompressState>
+            <Compress>0</Compress>
+            <Partitioned>False</Partitioned>
+            <Visible>True</Visible>
+            <Enable>True</Enable>
+            <IsSystemNamed>True</IsSystemNamed>
+          </Object>
+        </List>
+      </Object>
+    </List>
+    <List type="ArrayType">
+      <Object>
+        <Name>AT1</Name>
+        <IsSystem>False</IsSystem>
+        <Status>VALID</Status>
+        <ObjectType>ArrayType</ObjectType>
+        <UpperBound>20</UpperBound>
+        <ElementTypeMode />
+        <ElementTypeOwner>AUTOTEST_DATAEDITOR</ElementTypeOwner>
+        <ElementTypeName>OT1</ElementTypeName>
+        <Length>0</Length>
+        <Precision />
+        <Scale />
+      </Object>
+    </List>
+    <List type="ObjectType">
+      <Object>
+        <Name>OT1</Name>
+        <IsSystem>False</IsSystem>
+        <SourceText>TYPE AUTOTEST_DATAEDITOR.ot1 AS OBJECT (
+field1 NUMBER(10),
+  field2 VARCHAR2(20)
+  );</SourceText>
+        <Status>VALID</Status>
+        <IsEncrypted>False</IsEncrypted>
+        <TextFilledTag>True</TextFilledTag>
+        <BodyName />
+      </Object>
+      <Object>
+        <Name>USER_TYPE1</Name>
+        <IsSystem>False</IsSystem>
+        <SourceText>TYPE AUTOTEST_DATAEDITOR.USER_TYPE1 AS OBJECT (
+  I FLOAT(10), i1 VARCHAR(20)
+
+);</SourceText>
+        <Status>VALID</Status>
+        <IsEncrypted>False</IsEncrypted>
+        <TextFilledTag>True</TextFilledTag>
+        <BodyName />
+      </Object>
+    </List>
+    <List type="TableType">
+      <Object>
+        <Name>TT1</Name>
+        <IsSystem>False</IsSystem>
+        <Status>VALID</Status>
+        <ObjectType>TableType</ObjectType>
+        <UpperBound>0</UpperBound>
+        <ElementTypeMode />
+        <ElementTypeOwner>AUTOTEST_DATAEDITOR</ElementTypeOwner>
+        <ElementTypeName>OT1</ElementTypeName>
+        <Length>0</Length>
+        <Precision />
+        <Scale />
+      </Object>
+    </List>
+    <Dependencies name="AT" type="Table">
+      <Dependency>
+        <DependsOn type="ArrayType">AT1</DependsOn>
+        <ReferenceType>WeakReference</ReferenceType>
+      </Dependency>
+      <Dependency>
+        <DependsOn type="ObjectType">OT1</DependsOn>
+        <ReferenceType>WeakReference</ReferenceType>
+      </Dependency>
+    </Dependencies>
+    <Dependencies name="AT1" type="ArrayType">
+      <Dependency>
+        <DependsOn type="ObjectType">OT1</DependsOn>
+        <ReferenceType>WeakReference</ReferenceType>
+      </Dependency>
+    </Dependencies>
+    <Dependencies name="OBJECTTABLE" type="Table">
+      <Dependency>
+        <DependsOn type="ObjectType">OT1</DependsOn>
+        <ReferenceType>WeakReference</ReferenceType>
+      </Dependency>
+    </Dependencies>
+    <Dependencies name="OT" type="Table">
+      <Dependency>
+        <DependsOn type="ObjectType">OT1</DependsOn>
+        <ReferenceType>WeakReference</ReferenceType>
+      </Dependency>
+    </Dependencies>
+    <Dependencies name="TT" type="Table">
+      <Dependency>
+        <DependsOn type="TableType">TT1</DependsOn>
+        <ReferenceType>WeakReference</ReferenceType>
+      </Dependency>
+    </Dependencies>
+    <Dependencies name="TT1" type="TableType">
+      <Dependency>
+        <DependsOn type="ObjectType">OT1</DependsOn>
+        <ReferenceType>WeakReference</ReferenceType>
+      </Dependency>
+    </Dependencies>
+  </Database>
+</Snapshot>
